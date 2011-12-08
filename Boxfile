@@ -1,5 +1,5 @@
-web1: #component type & number
-  name: merna            #component settings
+web1:
+  name: merna
   shared_writable_dirs:
     - /var/cache
     - /var/sessions
@@ -11,6 +11,6 @@ web1: #component type & number
     - gd
     - eaccelerator
      
-db2: #component type & number 
-  name: wordpress            #component settings
+db2: 
+  name: wordpress
   type: mysql
