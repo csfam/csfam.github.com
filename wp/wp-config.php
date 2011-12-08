@@ -19,10 +19,10 @@
 define('DB_NAME', 'wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'luana');
+define('DB_USER', 'alethia');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'ONwIG1cF');
+define('DB_PASSWORD', 'xGFTCgYz');
 
 /** MySQL hostname */
 define('DB_HOST', 'tunnel.pagodabox.com:3306');
