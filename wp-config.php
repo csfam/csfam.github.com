@@ -16,16 +16,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'zingweb_phpfogapp_com');
 
 /** MySQL database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'timofei7-19463');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'ricnok78');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'db01-share');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         '0.151640306837174');
+define('SECURE_AUTH_KEY',  '0.151640306837174');
+define('LOGGED_IN_KEY',    '0.151640306837174');
+define('NONCE_KEY',        '0.151640306837174');
+define('AUTH_SALT',        '0.151640306837174');
+define('SECURE_AUTH_SALT', '0.151640306837174');
+define('LOGGED_IN_SALT',   '0.151640306837174');
+define('NONCE_SALT',       '0.151640306837174');
 
 /**#@-*/
 
