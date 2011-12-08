@@ -1,7 +1,11 @@
 web1:
   name: merna
   shared_writable_dirs:
-    - /wp/wp-content
+    - /wp-content/uploads 
+    - /wp-content/upgrade
+    - /wp/wp-content/uploads
+    - /wp/wp-content/upgrade
+    - /wp/wp-content/plugins
   document_root: /wp
   php_version: 5.3.8
   php_extensions:
