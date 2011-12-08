@@ -1,16 +1,15 @@
 web1:
-  name: merna
-  shared_writable_dirs:
-    - /var/cache
-    - /var/sessions
+  name: merna
+  shared_writable_dirs:
+    - /var/cache
+    - /var/sessions
     - /var/www/wp-content
-  document_root: /wp
-  php_version: 5.3.8
-  php_extensions:
-    - mysql
-    - gd
-    - eaccelerator
-     
+  document_root: /wp
+  php_version: 5.3.8
+  php_extensions:
+    - mysql
+    - gd
+    - eaccelerator 
 db2: 
-  name: wordpress
-  type: mysql
+  name: wordpress
+  type: mysql
