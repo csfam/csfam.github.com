@@ -3,7 +3,7 @@ web1:
   shared_writable_dirs:
     - /var/cache
     - /var/sessions
-    - /var/www/wp/wp-content 
+    - /var/www 
   document_root: /wp
   php_version: 5.3.8
   php_extensions:
