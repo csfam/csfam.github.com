@@ -16,16 +16,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'zingweb_phpfogapp_com');
+define('DB_NAME', 'wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'timofei7-19463');
+define('DB_USER', 'luana');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'ricnok78');
+define('DB_PASSWORD', 'ONwIG1cF');
 
 /** MySQL hostname */
-define('DB_HOST', 'db01-share');
+define('DB_HOST', 'tunnel.pagodabox.com:3306');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
