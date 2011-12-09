@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Portfolio | tim tregubov]]></title>
+  <link href="http://zingweb.herokuapp.com/blog/categories/portfolio/atom.xml" rel="self"/>
+  <link href="http://zingweb.herokuapp.com/"/>
+  <updated>2011-12-08T21:43:21-05:00</updated>
+  <id>http://zingweb.herokuapp.com/</id>
+  <author>
+    <name><![CDATA[timofei7]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Spooked and Confused]]></title>
+    <link href="http://zingweb.herokuapp.com/blog/2008/05/06/spooked-and-confused/"/>
+    <updated>2008-05-06T23:54:31-04:00</updated>
+    <id>http://zingweb.herokuapp.com/blog/2008/05/06/spooked-and-confused</id>
+    <content type="html"><![CDATA[<iframe width="853" height="480" src="http://www.youtube.com/embed/MrN5V19rvAk?hd=1" frameborder="0" allowfullscreen></iframe>
+
+
+<p><strong>Spooked and Confused</strong><br/>
+Final 3D animation project from CS42 at Dartmouth. I worked on this with:
+Graham Baecher, Jen Huang, and Justin Slick. Some good times spent in the lab!</p>
+
+<!--more-->
+
+
+<p></p>
+
+<p>_ Spoiler Alert _</p>
+
+<p>What I worked on:</p>
+
+<ul>
+<li>Animation:
+
+<ul>
+<li>Intro Lamp</li>
+<li>UFO flyin</li>
+<li>Angry and Biting</li>
+<li>"Mine Mine"</li>
+</ul>
+</li>
+<li>Modeling:
+
+<ul>
+<li>Glamber's head and face</li>
+<li>Glamber's eyes</li>
+<li>Parts of the environment</li>
+<li>Parts of ship</li>
+<li>One pumpkin</li>
+</ul>
+</li>
+<li>Skinning/Rigging:
+
+<ul>
+<li>Glamber Skin</li>
+<li>SpaceShip Rig</li>
+<li>Pumpkin blend shapes</li>
+</ul>
+</li>
+<li>Texturing/Visual Effects/Rendering:
+
+<ul>
+<li>Glamber Texture</li>
+<li>Glamber's Eyes texturing/lighting</li>
+<li>SpaceShip Glow Effect</li>
+<li>Environmental Fog and Lighting</li>
+<li>House texture</li>
+<li>Hills texturing</li>
+</ul>
+</li>
+<li>Sound:
+
+<ul>
+<li>1/2 sound effects/music</li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
