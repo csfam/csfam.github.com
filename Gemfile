@@ -16,3 +16,4 @@ group :development do
 end
 
 gem 'sinatra', '1.2.6'
+gem 'thin', '1.3.1'
