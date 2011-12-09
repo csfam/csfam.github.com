@@ -3,6 +3,9 @@
 .sass-cache
 .gist-cache
 .pygments-cache
+.rbenv-version
+.rvmrc
+.themes
 _deploy
 sass.old
 source.old
