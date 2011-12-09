@@ -1,2 +1,28 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+
+
+
+h1 {
+font-size: 1.2em;
+line-height: 1.2em;
+}
+
+#content .blog-index article h1 {
+font-size: 1.2em;
+}
+
+
+.serif, body, #content .blog-index a[rel="full-article"] {
+font-size: 1em;
+}
+
+
+p {
+-webkit-margin-before: .7em;
+-webkit-margin-after: .7em;
+}
+
+
+
