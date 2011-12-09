@@ -1,6 +1,7 @@
 require 'bundler/setup'
 require 'sinatra/base'
 
+$stdout.sync = true
 # The project root directory
 $root = ::File.dirname(__FILE__)
 
