@@ -15,7 +15,4 @@ group :development do
   gem 'liquid', '2.2.2'
 end
 
-gem 'rake'
-gem 'bundler'
 gem 'sinatra'
-gem 'thin'
