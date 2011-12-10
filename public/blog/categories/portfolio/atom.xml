@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Portfolio | tim tregubov]]></title>
-  <link href="http://zingweb.herokuapp.com/blog/categories/portfolio/atom.xml" rel="self"/>
-  <link href="http://zingweb.herokuapp.com/"/>
-  <updated>2011-12-10T16:39:56-05:00</updated>
-  <id>http://zingweb.herokuapp.com/</id>
+  <link href="http://zingweb.heroku.com/blog/categories/portfolio/atom.xml" rel="self"/>
+  <link href="http://zingweb.heroku.com/"/>
+  <updated>2011-12-10T16:47:24-05:00</updated>
+  <id>http://zingweb.heroku.com/</id>
   <author>
     <name><![CDATA[timofei7]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Spooked and Confused]]></title>
-    <link href="http://zingweb.herokuapp.com/blog/2008/05/06/spooked-and-confused/"/>
+    <link href="http://zingweb.heroku.com/blog/2008/05/06/spooked-and-confused/"/>
     <updated>2008-05-06T23:54:31-04:00</updated>
-    <id>http://zingweb.herokuapp.com/blog/2008/05/06/spooked-and-confused</id>
+    <id>http://zingweb.heroku.com/blog/2008/05/06/spooked-and-confused</id>
     <content type="html"><![CDATA[<iframe width="853" height="480" src="http://www.youtube.com/embed/MrN5V19rvAk?hd=1" frameborder="0" allowfullscreen></iframe>
 
 
