@@ -10,6 +10,8 @@ categories:
 - Writing
 tags:
 - education
+comments: true
+sharing: true 
 
 ---
 

@@ -10,7 +10,8 @@ categories:
 - Writing
 tags:
 - geopolitics
-
+comments: true
+sharing: true 
 ---
 
 They are afraid -- the great firewall of China, the blocking of Facebook in

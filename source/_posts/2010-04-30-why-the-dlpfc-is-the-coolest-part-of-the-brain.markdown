@@ -10,6 +10,8 @@ categories:
 - Writing
 tags:
 - brain
+comments: true
+sharing: true 
 
 ---
 

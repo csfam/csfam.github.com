@@ -11,6 +11,8 @@ categories:
 tags:
 - happiness
 - life
+comments: true
+sharing: true 
 
 ---
 

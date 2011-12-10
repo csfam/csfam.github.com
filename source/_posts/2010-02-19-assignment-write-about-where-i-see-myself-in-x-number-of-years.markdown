@@ -12,6 +12,8 @@ tags:
 - education
 - future
 - grad school
+comments: true
+sharing: true 
 
 ---
 

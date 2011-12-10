@@ -11,6 +11,8 @@ categories:
 tags:
 - fear
 - happiness
+comments: true
+sharing: true 
 
 ---
 
