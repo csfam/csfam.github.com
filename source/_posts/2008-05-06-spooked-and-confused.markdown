@@ -12,7 +12,6 @@ tags:
 - animation
 - digital arts
 - modeling
-
 ---
 
 <iframe width="853" height="480" src="http://www.youtube.com/embed/MrN5V19rvAk?hd=1" frameborder="0" allowfullscreen></iframe>
