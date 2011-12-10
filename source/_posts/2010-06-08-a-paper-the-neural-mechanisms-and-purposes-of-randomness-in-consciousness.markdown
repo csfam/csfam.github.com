@@ -11,7 +11,6 @@ categories:
 tags:
 - brain
 - randomness
-
 ---
 
 Do you believe in free will or determinism?   Either way,  imagine you are

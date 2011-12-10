@@ -2,7 +2,7 @@
 <h1><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h1>
 
 <!-- figure out how to include excerpt here-->
-<div class="html">{{post.exerpt}}</div>
+<div class="entry-content">{{ post.content | post.excerpt }}</div>
 
 <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time>
 <!--
