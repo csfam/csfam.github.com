@@ -14,8 +14,16 @@ font-size: 1.2em;
 }
 
 
-.serif, body, #content .blog-index a[rel="full-article"] {
-font-size: 1em;
+body {
+	font-size: .9em;
+}
+
+#blog-archives h1 a {
+	font-size: .9em;
+}
+
+#content .blog-index a[rel="full-article"] {
+font-size: .8em;
 }
 
 
