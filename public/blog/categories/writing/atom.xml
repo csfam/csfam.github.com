@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Writing | tim tregubov]]></title>
+  <title><![CDATA[Writing | tim tregubov]]></title>
   <link href="http://zingweb.herokuapp.com/blog/categories/writing/atom.xml" rel="self"/>
   <link href="http://zingweb.herokuapp.com/"/>
-  <updated>2011-12-09T01:43:41-05:00</updated>
+  <updated>2011-12-09T20:49:18-05:00</updated>
   <id>http://zingweb.herokuapp.com/</id>
   <author>
     <name><![CDATA[timofei7]]></name>
