@@ -3,6 +3,8 @@ source "http://rubygems.org"
 group :development do
   gem 'rake'
   gem 'rack'
+  gem 'gemcutter'
+  gem 'linkedin'
   gem 'jekyll'
   gem 'rdiscount'
   gem 'pygments.rb'

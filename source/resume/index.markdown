@@ -7,7 +7,7 @@ sharing: false
 footer: true
 
 ---
-
+<!--
 <div class="resume">
 	<div class="head">
 	<div class="name">Tim Tregubov</div>
@@ -19,8 +19,15 @@ footer: true
 	</div>
 	</div>
 
+	<div class="skills">
+<ul> Skills
+<li>Maya</li>
+<li>C#</li>
+<li>Unity3D</li>
+</ul>
+	</div>
 
 
 
-
-</div>
+</div>\
+-->
