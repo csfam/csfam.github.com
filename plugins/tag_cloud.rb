@@ -82,7 +82,7 @@ module Jekyll
                 name, weight = tag
                 size = size_min + ((size_max - size_min) * weight).to_f
                 size = sprintf("%.#{@precision}f", size)
-                html << "<a style='font-size: #{size}#{unit}' href='/#{tag_dir}/#{name}'>#{name}</a>\n"
+                html << "<a style='font-size: #{size}#{unit}' href='/#{tag_dir}/#{name.gsub(/_|\W/, '-')}'>#{name}</a>\n"
             end
         end
         
