@@ -1,7 +1,7 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
-
+@import "_newarchive";
 
 //resume section
 
@@ -56,6 +56,6 @@ span.rank-2 { font-size: 1.6em; font-weight: 400; }
 span.rank-1 { font-size: 1.8em; font-weight: 500; }
 
 
-#blog-archives .entry-content {
-	display: inline;
-}
+//#blog-archives .entry-content {
+//	display: inline;
+//}
