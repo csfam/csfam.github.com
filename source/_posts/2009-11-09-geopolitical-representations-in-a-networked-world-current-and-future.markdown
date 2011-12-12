@@ -5,7 +5,6 @@ layout: post
 slug: geopolitical-representations-in-a-networked-world-current-and-future
 status: publish
 title: 'Geopolitical Representations in a Networked World: current and future'
-wordpress_id: '59'
 categories:
 - Writing
 tags:

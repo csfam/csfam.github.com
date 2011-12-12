@@ -48,12 +48,14 @@ p {
 -webkit-margin-after: .7em;
 }
 
+aside.sidebar a { text-decoration: none }
 
-span.rank-5 { font-size: 1em; font-weight: 100; }
-span.rank-4 { font-size: 1.2em; font-weight: 200; }
-span.rank-3 { font-size: 1.4em; font-weight: 300; }
-span.rank-2 { font-size: 1.6em; font-weight: 400; }
-span.rank-1 { font-size: 1.8em; font-weight: 500; }
+//span.rank-5 { font-size: 1em; font-weight: 100; }
+//span.rank-4 { font-size: 1.2em; font-weight: 200; }
+//span.rank-3 { font-size: 1.4em; font-weight: 300; }
+//span.rank-2 { font-size: 1.6em; font-weight: 400; }
+//span.rank-1 { font-size: 1.8em; font-weight: 500; }
+
 
 
 //#blog-archives .entry-content {

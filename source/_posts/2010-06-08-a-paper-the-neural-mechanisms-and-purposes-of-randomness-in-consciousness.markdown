@@ -5,7 +5,6 @@ layout: post
 slug: a-paper-the-neural-mechanisms-and-purposes-of-randomness-in-consciousness
 status: publish
 title: 'a paper: The Neural Mechanisms and Purposes of Randomness in Consciousness'
-wordpress_id: '95'
 categories:
 - Writing
 tags:

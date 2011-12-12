@@ -4,7 +4,7 @@
   <title><![CDATA[tim tregubov]]></title>
   <link href="http://zingweb.heroku.com/atom.xml" rel="self"/>
   <link href="http://zingweb.heroku.com/"/>
-  <updated>2011-12-11T15:55:29-05:00</updated>
+  <updated>2011-12-12T16:55:30-05:00</updated>
   <id>http://zingweb.heroku.com/</id>
   <author>
     <name><![CDATA[timofei7]]></name>
@@ -2044,7 +2044,7 @@ Graham Baecher, Jen Huang, and Justin Slick. Some good times spent in the lab!</
 
 <p></p>
 
-<p>_ Spoiler Alert _</p>
+<p><em>Spoiler Alert</em></p>
 
 <p>What I worked on:</p>
 
@@ -2053,7 +2053,7 @@ Graham Baecher, Jen Huang, and Justin Slick. Some good times spent in the lab!</
 
 <ul>
 <li>Intro Lamp</li>
-<li>UFO flyin</li>
+<li>UFO flying/landing</li>
 <li>Angry and Biting</li>
 <li>&#8220;Mine Mine&#8221;</li>
 </ul>
@@ -2085,6 +2085,8 @@ Graham Baecher, Jen Huang, and Justin Slick. Some good times spent in the lab!</
 <li>Environmental Fog and Lighting</li>
 <li>House texture</li>
 <li>Hills texturing</li>
+<li>Pumpkin Zapping effect</li>
+<li>Pumpkin smoke</li>
 </ul>
 </li>
 <li>Sound:

@@ -5,7 +5,6 @@ layout: post
 slug: a-moment-in-the-life-of-camus-sisyphus
 status: publish
 title: A Moment in the Life of Camus' Sisyphus
-wordpress_id: '47'
 categories:
 - Writing
 tags:

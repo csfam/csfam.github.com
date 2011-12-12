@@ -5,7 +5,6 @@ layout: post
 slug: fear-happiness
 status: publish
 title: fear, happiness
-wordpress_id: '43'
 categories:
 - Writing
 tags:

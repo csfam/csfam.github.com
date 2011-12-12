@@ -5,7 +5,6 @@ layout: post
 slug: conscious-evolution-the-possibilities-of-technologyeducation
 status: publish
 title: 'Conscious Evolution: the possibilities of technology+education'
-wordpress_id: '40'
 categories:
 - Writing
 tags:

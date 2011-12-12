@@ -5,7 +5,6 @@ layout: post
 slug: '62'
 status: publish
 title: Spooked and Confused
-wordpress_id: '62'
 categories:
 - Portfolio
 tags:
@@ -24,13 +23,16 @@ Graham Baecher, Jen Huang, and Justin Slick. Some good times spent in the lab!
 
 <!--more-->  
 
-_ Spoiler Alert _
+_Spoiler Alert_
+
+
+
 
 What I worked on:
 
   * Animation: 
     * Intro Lamp
-    * UFO flyin
+    * UFO flying/landing
     * Angry and Biting
     * "Mine Mine"
   * Modeling: 
@@ -50,6 +52,8 @@ What I worked on:
     * Environmental Fog and Lighting
     * House texture
     * Hills texturing
+    * Pumpkin Zapping effect
+    * Pumpkin smoke 
   * Sound: 
     * 1/2 sound effects/music
 

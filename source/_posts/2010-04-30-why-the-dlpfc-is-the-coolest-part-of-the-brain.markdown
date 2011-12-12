@@ -5,7 +5,6 @@ layout: post
 slug: why-the-dlpfc-is-the-coolest-part-of-the-brain
 status: publish
 title: why the DLPFC is the coolest part of the brain
-wordpress_id: '101'
 categories:
 - Writing
 tags:

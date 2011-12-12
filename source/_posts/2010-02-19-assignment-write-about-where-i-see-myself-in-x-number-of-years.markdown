@@ -5,7 +5,6 @@ layout: post
 slug: assignment-write-about-where-i-see-myself-in-x-number-of-years
 status: publish
 title: 'assignment: write about where I see myself in x number of years'
-wordpress_id: '35'
 categories:
 - Writing
 tags:

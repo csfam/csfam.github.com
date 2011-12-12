@@ -5,7 +5,6 @@ layout: post
 slug: flow-education-and-ritalin-the-missing-link-between-addiction-and-learning
 status: publish
 title: 'Flow, Education, and Ritalin: The Missing Link Between Addiction And Learning'
-wordpress_id: '37'
 categories:
 - Writing
 tags:
