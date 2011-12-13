@@ -21,7 +21,7 @@ van... happened in real life; C.com/"light goop" ...well it was supposed to be
 about the future!
 
 **FRAMBERG MAGAZINE INTERVIEW (Issue: March, 2018)**  
-**Today we interview Tim Tregubov (age 39),  one of the visionaries behind a small company that might just be changing the way we interact with the world.  C.com is responsible for MultiPhen technology and the company is developing promising new applications that will further integrate adaptive intelligent systems with _the human system_.  The company is being heralded as a forerunner of a new type of business model which they are calling _engaged activism_.   We will find out what makes him tick, what C.com is all about and how it originated.**  
+**Today we interview Tim Tregubov,  one of the visionaries behind a small company that might just be changing the way we interact with the world.  C.com is responsible for MultiPhen technology and the company is developing promising new applications that will further integrate adaptive intelligent systems with _the human system_.  The company is being heralded as a forerunner of a new type of business model which they are calling _engaged activism_.   We will find out what makes him tick, what C.com is all about and how it originated.**  
 
 <!--more-->
   

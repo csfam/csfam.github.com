@@ -66,6 +66,29 @@ module Jekyll
             #end
         end
         
+        private
+        
+        def hash_to_html(depth, mainclass)
+            lambda do |key,value|
+                puts " "*depth + "<div class=#{key}>"
+                if value.nil?
+                    # do nothing
+                    # (single this case out, so as not to raise an error here)
+                    elsif value.is_a?(Hash)
+                    puts " "*(depth+1) + "<div class=#{mainclass}>"
+                    value.each(&hash_to_html(depth+2, mainclass))
+                    else
+                    fail "I don't know what to do with a #{value.class}"
+                    puts "</div>"
+                end
+                puts "</div>"
+            end
+        end
+        
+        #puts "%ul"
+        #yourhash.each(&hash_to_haml(1))
+
+        
     end
 end
 

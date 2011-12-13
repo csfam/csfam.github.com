@@ -7,27 +7,7 @@ sharing: false
 footer: true
 
 ---
-<!--
-<div class="resume">
-	<div class="head">
-	<div class="name">Tim Tregubov</div>
-	<div class="info">
-	tim@zingweb.com
-	6211 Sudikoff
-	Hanover, NH
-	03755
-	</div>
-	</div>
 
-	<div class="skills">
-<ul> Skills
-<li>Maya</li>
-<li>C#</li>
-<li>Unity3D</li>
-</ul>
-	</div>
-
-
-
-</div>\
--->
+<a href="http://www.linkedin.com/in/timtregubov">
+<img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Tim  Tregubov's profile on LinkedIn">
+</a>
