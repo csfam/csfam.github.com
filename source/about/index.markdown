@@ -8,3 +8,7 @@ footer: true
 ---
 
 
+A few years back this [article](/attachments/profile.pdf) was written about me. 
+
+No, I don't have a slight Russian accent. Yes, it would be cooler if I did. 
+
