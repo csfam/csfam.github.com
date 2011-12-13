@@ -4,7 +4,18 @@
 @import "_newarchive";
 @import "_resume";
 
-
+// overrides all this garbage so that the images are just on the their own the other profile box
+aside.sidebar img.profile {
+	padding: 10px; 
+	border: 0;
+	-webkit-border-radius: 0em;
+	-khtml-border-radius: 0em;
+	border-radius: 0em;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
 
 
 h1 {
