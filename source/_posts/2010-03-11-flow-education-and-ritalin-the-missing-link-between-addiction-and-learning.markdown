@@ -247,7 +247,9 @@ shows us a way to make it so.
 ________________
 
 
-References: Aalto, S., Bruck, A., Laine, M., Nagren, K., & Rinne, J. O.
+References: 
+
+Aalto, S., Bruck, A., Laine, M., Nagren, K., & Rinne, J. O.
 (2005). Frontal and temporal dopamine release during working memory and
 attention tasks in healthy humans: A positron emission tomography study using
 the high-affinity dopamine D2 receptor ligand [11C]FLB 457. Journal of

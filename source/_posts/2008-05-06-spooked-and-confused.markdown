@@ -5,12 +5,8 @@ layout: post
 slug: '62'
 status: publish
 title: Spooked and Confused
-categories:
-- Portfolio
-tags:
-- animation
-- digital arts
-- modeling
+categories: portfolio
+tags: [animation, digital arts, modeling]
 comments: true
 sharing: true 
 ---
