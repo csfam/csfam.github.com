@@ -4,7 +4,7 @@
   <title><![CDATA[tim tregubov]]></title>
   <link href="http://zingweb.heroku.com/atom.xml" rel="self"/>
   <link href="http://zingweb.heroku.com/"/>
-  <updated>2011-12-13T23:40:52-05:00</updated>
+  <updated>2011-12-14T18:26:51-05:00</updated>
   <id>http://zingweb.heroku.com/</id>
   <author>
     <name><![CDATA[timofei7]]></name>
@@ -863,9 +863,9 @@ characteristic.</p>
   
   <entry>
     <title type="html"><![CDATA[Flow, Education, and Ritalin: The Missing Link Between Addiction And Learning]]></title>
-    <link href="http://zingweb.heroku.com/blog/2010/03/11/flow-education-and-ritalin-the-missing-link-between-addiction-and-learning/"/>
+    <link href="http://zingweb.heroku.com/blog/2010/03/11/flow-and-education/"/>
     <updated>2010-03-11T22:10:37-05:00</updated>
-    <id>http://zingweb.heroku.com/blog/2010/03/11/flow-education-and-ritalin-the-missing-link-between-addiction-and-learning</id>
+    <id>http://zingweb.heroku.com/blog/2010/03/11/flow-and-education</id>
     <content type="html"><![CDATA[<p><strong>Flow, Education, and Ritalin</strong><br/>
 My eyes are glued to the screen. They rarely blink. They become irritated but
 I do not notice. I am in the zone. The force is with me. I feel it flow
@@ -1528,9 +1528,9 @@ Brace, 1960. pg. 57.</p>
   
   <entry>
     <title type="html"><![CDATA[Conscious Evolution: the possibilities of technology+education]]></title>
-    <link href="http://zingweb.heroku.com/blog/2010/01/03/conscious-evolution-the-possibilities-of-technologyeducation/"/>
+    <link href="http://zingweb.heroku.com/blog/2010/01/03/conscious-evolution/"/>
     <updated>2010-01-03T22:16:28-05:00</updated>
-    <id>http://zingweb.heroku.com/blog/2010/01/03/conscious-evolution-the-possibilities-of-technologyeducation</id>
+    <id>http://zingweb.heroku.com/blog/2010/01/03/conscious-evolution</id>
     <content type="html"><![CDATA[<p>Is it possible for humanity to consciously direct our own evolution and if so
 can we evolve to be better, smarter and faster? Can we evolve ourselves to be
 able to sustain an utopic society? In my intro to psychology class one of the
@@ -2044,11 +2044,11 @@ the age of participatory media. Daedalus, 139(2), 66-75,154. Retrieved August
 <!--more-->
 
 
-<h1>Dartmouth Greenlite (Aka TellEmotion)</h1>
+<h1>Greenlite Dartmouth (aka TellEmotion)</h1>
 
 <p>Together with one of my favorite professors and two other students we founded a startup called TellEmotion (from Tim/Evan/Lorie/Luke).  The idea was to present electrical usage in an intuitive emotionally appealing way.  We designed and implemented a system for reading electrical meters on campus which would then feed into an animation of a polar bear.   The state of the bear would change based on the how efficiently the resources were being used.  If electrical usage was up (either compared to historical data or to some target goals) then the bear would be unhappy and its environment would be melting, if electrical usage was down, then it would play and be happy.  This was based on some research that showed that behavior change is sometimes better driven by emotional rewards rather than strictly financial considerations.  The system was a success and is now installed in many dorms and buildings on the campus as well as in other schools nationwide.   Although the most benefit comes from the educational aspect of the system, it has been shown to decrease energy usage over time.</p>
 
-<h2>Publications</h2>
+<h2>Semi-Publications</h2>
 
 <p>Here is a paper we submitted to Siggraph (not accepted): <a href="https://s3.amazonaws.com/timofei7portfolio/greenlite/siggraph_paper.pdf">Greenlite Dartmouth</a></p>
 

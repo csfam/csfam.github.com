@@ -19,11 +19,11 @@ This was a Siggraph 2009 information aesthetics video submission we made. Althou
 <!--more-->
 
 
-#Dartmouth Greenlite (Aka TellEmotion)#
+#Greenlite Dartmouth (aka TellEmotion)#
 
 Together with one of my favorite professors and two other students we founded a startup called TellEmotion (from Tim/Evan/Lorie/Luke).  The idea was to present electrical usage in an intuitive emotionally appealing way.  We designed and implemented a system for reading electrical meters on campus which would then feed into an animation of a polar bear.   The state of the bear would change based on the how efficiently the resources were being used.  If electrical usage was up (either compared to historical data or to some target goals) then the bear would be unhappy and its environment would be melting, if electrical usage was down, then it would play and be happy.  This was based on some research that showed that behavior change is sometimes better driven by emotional rewards rather than strictly financial considerations.  The system was a success and is now installed in many dorms and buildings on the campus as well as in other schools nationwide.   Although the most benefit comes from the educational aspect of the system, it has been shown to decrease energy usage over time.
 
-##Publications##
+##Semi-Publications##
 Here is a paper we submitted to Siggraph (not accepted): [Greenlite Dartmouth](https://s3.amazonaws.com/timofei7portfolio/greenlite/siggraph_paper.pdf)
 
 Here is our Poster (was accepted): [Greenlite Poster](https://s3.amazonaws.com/timofei7portfolio/greenlite/GreenLitePosterSiggraph.pdf)
