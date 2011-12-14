@@ -5,7 +5,7 @@
 @import "_resume";
 
 // overrides all this garbage so that the images are just on the their own the other profile box
-aside.sidebar img.profile {
+aside.sidebar .profile img{
 	padding: 10px; 
 	border: 0;
 	-webkit-border-radius: 0em;
@@ -16,6 +16,24 @@ aside.sidebar img.profile {
 	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
 }
+aside.sidebar .profile a {
+	padding-left: 28px;
+	white-space:nowrap;
+	display: block;
+}
+aside.sidebar .profile li {
+ //padding-left: 28px;
+ padding-top: 10px;
+ background-repeat: no-repeat;
+ background-position: 0 .5em;
+}
+
+aside.sidebar .profile li#linkedin{ background-image: url(/images/linkedin.png); }
+aside.sidebar .profile li#youtube{ background-image: url(/images/youtube.png); }
+aside.sidebar .profile li#facebook{ background-image: url(/images/facebook.png); }
+aside.sidebar .profile li#picasa{ background-image: url(/images/picasa.png); }
+
+
 
 
 h1 {
