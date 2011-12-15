@@ -4,7 +4,7 @@
   <title><![CDATA[portfolio | tim tregubov]]></title>
   <link href="http://zingweb.heroku.com/blog/categories/portfolio/atom.xml" rel="self"/>
   <link href="http://zingweb.heroku.com/"/>
-  <updated>2011-12-14T18:26:51-05:00</updated>
+  <updated>2011-12-15T01:51:18-05:00</updated>
   <id>http://zingweb.heroku.com/</id>
   <author>
     <name><![CDATA[timofei7]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[chessInvaders]]></title>
+    <link href="http://zingweb.heroku.com/blog/2011/12/15/chessinvaders/"/>
+    <updated>2011-12-15T01:40:00-05:00</updated>
+    <id>http://zingweb.heroku.com/blog/2011/12/15/chessinvaders</id>
+    <content type="html"><![CDATA[<p>coming soon</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[KinectSculpt]]></title>
+    <link href="http://zingweb.heroku.com/blog/2011/04/27/kinectsculpt/"/>
+    <updated>2011-04-27T01:40:00-04:00</updated>
+    <id>http://zingweb.heroku.com/blog/2011/04/27/kinectsculpt</id>
+    <content type="html"><![CDATA[<p>coming soon</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ENGS21: Self Cleaning Drain]]></title>
+    <link href="http://zingweb.heroku.com/blog/2010/06/02/engs21/"/>
+    <updated>2010-06-02T01:43:00-04:00</updated>
+    <id>http://zingweb.heroku.com/blog/2010/06/02/engs21</id>
+    <content type="html"><![CDATA[<p>coming soon</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[TiNZ]]></title>
+    <link href="http://zingweb.heroku.com/blog/2009/09/01/tinz/"/>
+    <updated>2009-09-01T01:39:00-04:00</updated>
+    <id>http://zingweb.heroku.com/blog/2009/09/01/tinz</id>
+    <content type="html"><![CDATA[<p>coming soon</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Greenlite Dartmouth]]></title>
@@ -58,79 +94,6 @@ I implemented this in Unity3D in C# using models I created in Maya. All the pola
 <p>I learned a lot on this project, from electrical metering to architecting a larger scale software project to working with motioncapture and a 3D game engine.  Another important lesson was that 3D is not necessarily better. Although people responded positively to the 3D animations (more so the quadruped version in the video than the biped in the web demo), the 3D version would have required many more man hours and at that stage in the project was simply too work intensive.</p>
 
 <p>You can see it all live at Dartmouth right now here: <a href="http://greenlite.dartmouth.edu">Greenlite Dartmouth</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Spooked and Confused]]></title>
-    <link href="http://zingweb.heroku.com/blog/2008/05/06/spooked-and-confused/"/>
-    <updated>2008-05-06T23:54:31-04:00</updated>
-    <id>http://zingweb.heroku.com/blog/2008/05/06/spooked-and-confused</id>
-    <content type="html"><![CDATA[<iframe width="853" height="480" src="http://www.youtube.com/embed/MrN5V19rvAk?hd=1" frameborder="0" allowfullscreen></iframe>
-
-
-<p><strong>Spooked and Confused</strong><br/>
-Final 3D animation project from CS42 at Dartmouth. I worked on this with:
-Graham Baecher, Jen Huang, and Justin Slick. Some good times spent in the lab!</p>
-
-<!--more-->
-
-
-<p></p>
-
-<p><em>Spoiler Alert</em></p>
-
-<p>What I worked on:</p>
-
-<ul>
-<li>Animation:
-
-<ul>
-<li>Intro Lamp</li>
-<li>UFO flying/landing</li>
-<li>Angry and Biting</li>
-<li>"Mine Mine"</li>
-</ul>
-</li>
-<li>Modeling:
-
-<ul>
-<li>Glamber's head and face</li>
-<li>Glamber's eyes</li>
-<li>Parts of the environment</li>
-<li>Parts of ship</li>
-<li>One pumpkin</li>
-</ul>
-</li>
-<li>Skinning/Rigging:
-
-<ul>
-<li>Glamber Skin</li>
-<li>SpaceShip Rig</li>
-<li>Pumpkin blend shapes</li>
-</ul>
-</li>
-<li>Texturing/Visual Effects/Rendering:
-
-<ul>
-<li>Glamber Texture</li>
-<li>Glamber's Eyes texturing/lighting</li>
-<li>SpaceShip Glow Effect</li>
-<li>Environmental Fog and Lighting</li>
-<li>House texture</li>
-<li>Hills texturing</li>
-<li>Pumpkin Zapping effect</li>
-<li>Pumpkin smoke</li>
-</ul>
-</li>
-<li>Sound:
-
-<ul>
-<li>1/2 sound effects/music</li>
-</ul>
-</li>
-</ul>
-
 ]]></content>
   </entry>
   
