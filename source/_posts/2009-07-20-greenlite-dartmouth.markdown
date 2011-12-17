@@ -8,8 +8,7 @@ tags: [energy, animation, games, 3D, polarbear]
 ---
 
 
-
-<iframe width="640" height="480" src="http://www.youtube.com/embed/RGeYHYpLQa8" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="480" src="http://www.youtube.com/embed/RGeYHYpLQa8?rel=0" frameborder="0" allowfullscreen></iframe>
 
 The Greenlite Project: An animated polar bear which aims to educate students about the impact of electricity and other resource use.
 

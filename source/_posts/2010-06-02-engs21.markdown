@@ -4,7 +4,10 @@ title: "ENGS21: Self Cleaning Drain"
 date: 2010-06-02 01:43
 comments: true
 categories: portfolio 
+tags: [engineering]
 ---
 
+For the "flagship" engineering class my group designed and built a self-cleaning drain. It was a small device that would retrofit in your shower drain and was foot powered to help clear clogged drains.  By the end of the course we had a working, tested prototype.  My contributions were the SolidWorks design, rapid prototyping, and some of the machining work. The course game me engineering experience outside of electronics and computer engineering. (skills: SolidWorks, rapid prototyping on an Object Eden, lathe and mill machining) 
 
-coming soon
+##more coming soon##
+
