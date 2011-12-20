@@ -4,7 +4,7 @@
   <title><![CDATA[tim tregubov]]></title>
   <link href="http://zingweb.heroku.com/atom.xml" rel="self"/>
   <link href="http://zingweb.heroku.com/"/>
-  <updated>2011-12-17T17:02:28-05:00</updated>
+  <updated>2011-12-19T22:50:17-05:00</updated>
   <id>http://zingweb.heroku.com/</id>
   <author>
     <name><![CDATA[timofei7]]></name>
@@ -2063,13 +2063,44 @@ the age of participatory media. Daedalus, 139(2), 66-75,154. Retrieved August
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[TiNZ]]></title>
+    <title type="html"><![CDATA[ENGS31 DigitalElectronics -- TiNZ]]></title>
     <link href="http://zingweb.heroku.com/blog/2009/09/01/tinz/"/>
     <updated>2009-09-01T01:39:00-04:00</updated>
     <id>http://zingweb.heroku.com/blog/2009/09/01/tinz</id>
-    <content type="html"><![CDATA[<p>My digital electronics class was perhaps the most fulfilling class I have ever taken.  In groups of two we designed and built an electronics project from scratch.  We reinvented the original tilt-maze game as a digital moving maze on an RBG 8x8 LED matrix controlled via accelerometer.  Our maze designs included a multicolor fire-spewing dragon, a volcano, and an alien space ship with lasers.  People enjoyed playing the game and we were asked to come back to demo it at various Engineering School events.  This course bestowed me with the core set of skills necessary for building electronics.  (skills: VHDL FPGA programming, digital electronics, accelerometers)</p>
+    <content type="html"><![CDATA[<iframe width="853" height="480" src="http://www.youtube.com/embed/jcJoUI1PBZo?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
 
-<h2>more coming soon</h2>
+
+<p>(Divya Gunasekaran and Tim Tregubov, Summer 2009)</p>
+
+<h2>Project Abstract</h2>
+
+<p>Our goal for this project was to create a simple, but addicting game that played off of old-fashioned handheld and vintage arcade games, but utilized newer technology that allowed for a more modern feel and the implementation of more exciting features. We succeeded in creating a challenging game that takes the user&#8217;s movements as inputs via an accelerometer to move the player on the board, which consists of a small 8x8 RGB LED matrix with a seven-segment display showing the timer and score. A piezo is also included to produce different sounds for specific actions in the game. These components contribute to a gaming experience that is stimulating both tactilely, visually and aurally. The game design also makes the game easy to reprogram to include more levels and additional features.</p>
+
+<!--more-->
+
+
+<h2>Details</h2>
+
+<p>This was perhaps the most fulfilling class I have ever taken.  In groups of two we designed and built an electronics project from scratch.  We reinvented the original tilt-maze game as a digital moving maze on an RBG 8x8 LED matrix controlled via accelerometer.  Our maze designs included a multicolor fire-spewing dragon, a volcano, and an alien space ship with lasers.</p>
+
+<p>People enjoyed playing the game and we were asked to come back to demo it at various Engineering School events.</p>
+
+<p>The experience of building a working, playable, and enjoyable electronic toy was very empowering.</p>
+
+<p>The basic details of the project and what I learned:</p>
+
+<ul>
+<li>Digital circuits and logic</li>
+<li>VHDL FPGA programming</li>
+<li>Project design</li>
+<li>Accelerometer programming</li>
+<li>LED multi-segment RGB display programming</li>
+<li>Piezo programming</li>
+</ul>
+
+
+<p>Here is the full <a href="https://s3.amazonaws.com/timofei7portfolio/TiNZ/engs31FinalReport.pdf">project report</a> with schematics and software design.<br/>
+(note: section 7 with complete code is omitted, but I may post it if people are interested)</p>
 ]]></content>
   </entry>
   
