@@ -4,7 +4,7 @@
   <title><![CDATA[tim tregubov]]></title>
   <link href="http://zingweb.heroku.com/atom.xml" rel="self"/>
   <link href="http://zingweb.heroku.com/"/>
-  <updated>2011-12-19T22:50:17-05:00</updated>
+  <updated>2011-12-20T00:05:57-05:00</updated>
   <id>http://zingweb.heroku.com/</id>
   <author>
     <name><![CDATA[timofei7]]></name>
@@ -423,13 +423,59 @@ function. Biosystems, 67(1-3), 287-294. doi:DOI: 10.1016/S0303-2647(02)00086-2</
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[ENGS21: Self Cleaning Drain]]></title>
+    <title type="html"><![CDATA[ENGS21: Gunkless Drain]]></title>
     <link href="http://zingweb.heroku.com/blog/2010/06/02/engs21/"/>
     <updated>2010-06-02T01:43:00-04:00</updated>
     <id>http://zingweb.heroku.com/blog/2010/06/02/engs21</id>
-    <content type="html"><![CDATA[<p>For the &#8220;flagship&#8221; engineering class my group designed and built a self-cleaning drain. It was a small device that would retrofit in your shower drain and was foot powered to help clear clogged drains.  By the end of the course we had a working, tested prototype.  My contributions were the SolidWorks design, rapid prototyping, and some of the machining work. The course game me engineering experience outside of electronics and computer engineering. (skills: SolidWorks, rapid prototyping on an Object Eden, lathe and mill machining)</p>
+    <content type="html"><![CDATA[<iframe width="640" height="480" src="http://www.youtube.com/embed/Wk0fobSn1PY?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
 
-<h2>more coming soon</h2>
+
+<p>(Gunkless SolidWorks Design: Tim Tregubov,  Spring 2010)</p>
+
+<p>For the &#8220;flagship&#8221; engineering class my group, Divya Gunasekaran, Elizabeth Klinger, Alannah Linkhorn, Pavel Sotskov, and myself, designed and built a self-cleaning drain. It was a small device that would retrofit in your shower drain and was foot powered to help clear clogged drains.  By the end of the course we had a working, tested prototype.</p>
+
+<!--more-->
+
+
+<h2>Working Prototype</h2>
+
+<iframe width="640" height="480" src="http://www.youtube.com/embed/EyW0I3QAJUw?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p>My goals for the class on the outset were: to learn some machining and SolidWorks &#8211; an engineering experience outside of electronics and computer engineering.. That was exactly what I accomplished, along with some fun design stuff and a lot of report writing and gantt charting.</p>
+
+<p>My contributions to the project were:</p>
+
+<ul>
+<li>SolidWorks design</li>
+<li>rapid prototyping (Object Eden)</li>
+<li>some lathe and milling machining work</li>
+</ul>
+
+
+<p>Here is our <a href="https://s3.amazonaws.com/timofei7portfolio/ENGS21/ENGS+Presentation+Final.ppt">final presentation</a></p>
+
+<h3>Some of my initial brainstorming sketches:</h3>
+
+<p><img src="https://s3.amazonaws.com/timofei7portfolio/ENGS21/Slide1.jpg" alt="" />
+<img src="https://s3.amazonaws.com/timofei7portfolio/ENGS21/testdev.jpg" alt="" /></p>
+
+<h3>Annotated SolidWorks concept:</h3>
+
+<p><img src="https://s3.amazonaws.com/timofei7portfolio/ENGS21/colored2.png" alt="" /></p>
+
+<h3>SolidWorks Templates for milling:</h3>
+
+<p><img src="https://s3.amazonaws.com/timofei7portfolio/ENGS21/Scan10001.JPG" alt="" />
+<img src="https://s3.amazonaws.com/timofei7portfolio/ENGS21/Scan10002.JPG" alt="" /></p>
+
+<h3>Rapid prototype pieces:</h3>
+
+<p><img src="https://s3.amazonaws.com/timofei7portfolio/ENGS21/IMG_3115.jpg" alt="" /></p>
+
+<h3>The final machined prototype:</h3>
+
+<p><img src="https://s3.amazonaws.com/timofei7portfolio/ENGS21/IMG_3119.jpg" alt="" /></p>
 ]]></content>
   </entry>
   
