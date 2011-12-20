@@ -11,7 +11,6 @@ tags: [engineering, game]
 <iframe width="853" height="480" src="http://www.youtube.com/embed/jcJoUI1PBZo?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
 (Divya Gunasekaran and Tim Tregubov, Summer 2009)
 
-##Project Abstract###
 
 Our goal for this project was to create a simple, but addicting game that played off of old-fashioned handheld and vintage arcade games, but utilized newer technology that allowed for a more modern feel and the implementation of more exciting features. We succeeded in creating a challenging game that takes the user's movements as inputs via an accelerometer to move the player on the board, which consists of a small 8x8 RGB LED matrix with a seven-segment display showing the timer and score. A piezo is also included to produce different sounds for specific actions in the game. These components contribute to a gaming experience that is stimulating both tactilely, visually and aurally. The game design also makes the game easy to reprogram to include more levels and additional features.
 
