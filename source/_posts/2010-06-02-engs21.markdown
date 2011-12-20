@@ -28,7 +28,7 @@ My contributions to the project were:
 * rapid prototyping (Object Eden)
 * some lathe and milling machining work
 
-Here is our [final presentation](https://s3.amazonaws.com/timofei7portfolio/ENGS21/ENGS+Presentation+Final.ppt)
+Here is our [final presentation](https://s3.amazonaws.com/timofei7portfolio/ENGS21/ENGS21finalpresentation.pdf)
 
 
 ###Some of my initial brainstorming sketches:###
