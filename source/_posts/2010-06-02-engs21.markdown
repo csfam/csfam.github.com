@@ -20,7 +20,7 @@ For the "flagship" engineering class my group, Divya Gunasekaran, Elizabeth Klin
 
 <iframe width="640" height="480" src="http://www.youtube.com/embed/EyW0I3QAJUw?rel=0" frameborder="0" allowfullscreen></iframe>
 
-My goals for the class on the outset were: to learn some machining and SolidWorks -- an engineering experience outside of electronics and computer engineering.. That was exactly what I accomplished, along with some fun design stuff and a lot of report writing and gantt charting.  
+My goals for the class on the outset were: to learn some machining and SolidWorks --- basically an engineering experience outside of electronics and computer engineering.  That happened, along with some fun design stuff and a lot of report writing and gantt charting.  
  
 My contributions to the project were:
 
