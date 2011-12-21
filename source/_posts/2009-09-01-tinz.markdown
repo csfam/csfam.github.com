@@ -8,7 +8,7 @@ tags: [engineering, game]
 ---
 
 
-<iframe width="853" height="480" src="http://www.youtube.com/embed/jcJoUI1PBZo?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
+<iframe id="tinz" width="853" height="480" src="http://www.youtube.com/embed/jcJoUI1PBZo?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
 (Divya Gunasekaran and Tim Tregubov, Summer 2009)
 
 

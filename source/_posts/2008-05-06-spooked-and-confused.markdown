@@ -11,7 +11,7 @@ sharing: true
 tags: [animation, digital arts, modeling]
 ---
 
-<iframe width="853" height="480" src="http://www.youtube.com/embed/MrN5V19rvAk?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
+<iframe id="spookedandconfused" width="853" height="480" src="http://www.youtube.com/embed/MrN5V19rvAk?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
 
 **Spooked and Confused**  
 Final 3D animation project from CS42 at Dartmouth. I worked on this with:

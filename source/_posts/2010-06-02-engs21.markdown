@@ -7,7 +7,7 @@ categories: portfolio
 tags: [engineering]
 ---
 
-<iframe width="640" height="480" src="http://www.youtube.com/embed/Wk0fobSn1PY?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
+<iframe id="engs21" width="640" height="480" src="http://www.youtube.com/embed/Wk0fobSn1PY?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
 (Gunkless SolidWorks Design: Tim Tregubov,  Spring 2010)
 
 For the "flagship" engineering class my group, Divya Gunasekaran, Elizabeth Klinger, Alannah Linkhorn, Pavel Sotskov, and myself, designed and built a self-cleaning drain. It was a small device that would retrofit in your shower drain and was foot powered to help clear clogged drains.  By the end of the course we had a working, tested prototype.  
@@ -18,7 +18,7 @@ For the "flagship" engineering class my group, Divya Gunasekaran, Elizabeth Klin
 ##Working Prototype##
 
 
-<iframe width="640" height="480" src="http://www.youtube.com/embed/EyW0I3QAJUw?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe id="engs21_2" width="640" height="480" src="http://www.youtube.com/embed/EyW0I3QAJUw?rel=0" frameborder="0" allowfullscreen></iframe>
 
 My goals for the class on the outset were: to learn some machining and SolidWorks --- basically an engineering experience outside of electronics and computer engineering.  That happened, along with some fun design stuff and a lot of report writing and gantt charting.  
  
