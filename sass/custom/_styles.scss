@@ -4,6 +4,28 @@
 @import "_newarchive";
 @import "_resume";
 
+
+//#headleft { float: left}
+//#headright { float: left}
+//.clear {clear: both;}
+body > header h1:before {
+      content:"";
+      position:absolute;
+      //left:0px;
+      right:0px;
+      top:4px;
+      height:100px;
+      width:150px;
+      overflow:hidden;
+      text-align:left;
+      background-image:url('/images/profile.png');
+      background-repeat:no-repeat;
+      @media only screen and (max-width: 992px) {
+	top:0px;
+     } 
+}
+
+
 // overrides all this garbage so that the images are just on the their own the other profile box
 aside.sidebar .profile img{
 	padding: 10px; 
