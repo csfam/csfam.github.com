@@ -4,7 +4,7 @@
   <title><![CDATA[portfolio | tim tregubov]]></title>
   <link href="http://zingweb.heroku.com/blog/categories/portfolio/atom.xml" rel="self"/>
   <link href="http://zingweb.heroku.com/"/>
-  <updated>2011-12-21T22:42:23-05:00</updated>
+  <updated>2011-12-25T21:21:00-05:00</updated>
   <id>http://zingweb.heroku.com/</id>
   <author>
     <name><![CDATA[timofei7]]></name>
@@ -19,6 +19,28 @@
     <updated>2011-12-15T01:40:00-05:00</updated>
     <id>http://zingweb.heroku.com/blog/2011/12/15/chessinvaders</id>
     <content type="html"><![CDATA[<p>The current project I am working on is an iPad game that teaches basic rules of chess in a fast paced not-quite-chess environment. The game is a small, but fun combination of space invaders and chess.  It teaches and drills the basic movement rules while remaining engaging.</p>
+
+<p>A recentish clip of the 3D environment with touch zoom and pan:</p>
+
+<iframe id="3denv" width="640" height="480" src="http://www.youtube.com/embed/QnLySqbE1is?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+<!--MORE-->
+
+
+<p>Here are some more clips:</p>
+
+<p>This is a clip of some gameplay!</p>
+
+<iframe id="gameplay" width="640" height="480" src="http://www.youtube.com/embed/WUUwGmBc7w8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p>And this is an intro sequence test, most of this will change, but the pink screen UI I think is here to stay!</p>
+
+<iframe id="introtest" width="640" height="480" src="http://www.youtube.com/embed/MgGpyQhdSkQ?rel=0" frameborder="0" allowfullscreen></iframe>
+
 
 <h2>more coming soon</h2>
 ]]></content>
