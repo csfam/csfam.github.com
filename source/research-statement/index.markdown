@@ -17,7 +17,6 @@ Research Groups:
 
 ___________________________
 
-#Research Statement#
 
 > “To be playful and serious at the same time is possible,
 > and it defines the ideal mental condition [for learning]”
