@@ -4,7 +4,7 @@
   <title><![CDATA[tim tregubov]]></title>
   <link href="http://zingweb.heroku.com/atom.xml" rel="self"/>
   <link href="http://zingweb.heroku.com/"/>
-  <updated>2011-12-25T21:46:03-05:00</updated>
+  <updated>2011-12-28T14:43:10-05:00</updated>
   <id>http://zingweb.heroku.com/</id>
   <author>
     <name><![CDATA[timofei7]]></name>
@@ -2239,15 +2239,6 @@ I implemented this in Unity3D in C# using models I created in Maya. All the pola
 <p>I learned a lot on this project, from electrical metering to architecting a larger scale software project to working with motioncapture and a 3D game engine.  Another important lesson was that 3D is not necessarily better. Although people responded positively to the 3D animations (more so the quadruped version in the video than the biped in the web demo), the 3D version would have required many more man hours and at that stage in the project was simply too work intensive.</p>
 
 <p>You can see it all live at Dartmouth right now here: <a href="http://greenlite.dartmouth.edu">Greenlite Dartmouth</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Drawing Summer '10]]></title>
-    <link href="http://zingweb.heroku.com/blog/2008/08/25/drawing-summer-10/"/>
-    <updated>2008-08-25T23:04:00-04:00</updated>
-    <id>http://zingweb.heroku.com/blog/2008/08/25/drawing-summer-10</id>
-    <content type="html"><![CDATA[<p>alberto giacommeti human soul sketch</p>
 ]]></content>
   </entry>
   
