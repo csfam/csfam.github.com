@@ -4,7 +4,7 @@
   <title><![CDATA[tim tregubov]]></title>
   <link href="http://zingweb.heroku.com/atom.xml" rel="self"/>
   <link href="http://zingweb.heroku.com/"/>
-  <updated>2011-12-28T14:43:10-05:00</updated>
+  <updated>2012-01-02T00:34:07-05:00</updated>
   <id>http://zingweb.heroku.com/</id>
   <author>
     <name><![CDATA[timofei7]]></name>
@@ -2243,6 +2243,15 @@ I implemented this in Unity3D in C# using models I created in Maya. All the pola
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[Drawing Summer '10]]></title>
+    <link href="http://zingweb.heroku.com/blog/2008/08/25/drawing-summer-10/"/>
+    <updated>2008-08-25T23:04:00-04:00</updated>
+    <id>http://zingweb.heroku.com/blog/2008/08/25/drawing-summer-10</id>
+    <content type="html"><![CDATA[<p>alberto giacommeti human soul sketch</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Spooked and Confused]]></title>
     <link href="http://zingweb.heroku.com/blog/2008/05/06/spooked-and-confused/"/>
     <updated>2008-05-06T23:54:31-04:00</updated>
@@ -2312,6 +2321,26 @@ Graham Baecher, Jen Huang, and Justin Slick. Some good times spent in the lab!</
 </li>
 </ul>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Chip Carving]]></title>
+    <link href="http://zingweb.heroku.com/blog/1998/12/21/chipcarving/"/>
+    <updated>1998-12-21T23:04:00-05:00</updated>
+    <id>http://zingweb.heroku.com/blog/1998/12/21/chipcarving</id>
+    <content type="html"><![CDATA[<p><embed id="chipcarving" type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="600" height="400" flashvars="host=picasaweb.google.com&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F118205347316414616442%2Falbumid%2F5692876210570924801%3Falt%3Drss%26kind%3Dphoto%26authkey%3DGv1sRgCJTO4MHytYUG%26hl%3Den_US" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed></p>
+
+<p>(Carving a simple frame out of butternut. Swallowtail shaped chips allow for more intricate designs)</p>
+
+<p>I used to do a lot of chip carving. This is a style of woodcarving found in traditional folk art around the world.  Geometric patterns composed of 2, 3, or 4 sided pyramid shaped chips are carved out of the surface, usually with a single knife.  Each chip comes out as a single piece. It can be used to decorate large building surfaces as well as more intricate pieces such as boxes or art frames.</p>
+
+<!--MORE-->
+
+
+<p><embed id="more carvings" type="application/x-shockwave-flash" src="https://picasaweb.google.com/s/c/bin/slideshow.swf" width="600" height="400" flashvars="host=picasaweb.google.com&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F118205347316414616442%2Falbumid%2F5692893966381015649%3Falt%3Drss%26kind%3Dphoto%26authkey%3DGv1sRgCLeHqerZmfzhNg%26hl%3Den_US" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed></p>
+
+<p>Here are some samples of my carvings. Most of these are carved in butternut.  Not all are chip carvings &#8211; there are celtic knot style as well as some relief work.</p>
 ]]></content>
   </entry>
   
