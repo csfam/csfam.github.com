@@ -30,7 +30,7 @@ And this is an intro sequence test, most of this will change, but the pink scree
 
 ----------
 
-Here are some simple 2D animals I designed for a pseudo 2D mode where the animals are billboarded to face the camera. This is a bit cuter and better for kids than the current static 3D models. Ideally the pieces will be 3D and animated but for now this will be the cute mode. 
+Here are some simple 2D graphicsI designed for a pseudo 2D mode where the animals are billboarded to face the camera. This is a bit cuter and better for kids than the current static 3D models. Ideally the pieces will be 3D and animated but for now this will be the cute mode. 
 
 <div id="animalsgalleria"></div>
 <script type="text/javascript">
@@ -38,7 +38,7 @@ jQuery('#animalsgalleria').galleria({
 debug: false,
 _toggleInfo: false,
 width: 400,
-picasa: 'useralbum:timofei/2DChessAnimals',
+picasa: 'useralbum:timofei/2DChessGraphics',
 picasaOptions: {
         description: true,
 }

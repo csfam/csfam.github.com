@@ -4,7 +4,7 @@
   <title><![CDATA[portfolio | tim tregubov]]></title>
   <link href="http://zingweb.heroku.com/blog/categories/portfolio/atom.xml" rel="self"/>
   <link href="http://zingweb.heroku.com/"/>
-  <updated>2012-01-03T02:51:03-05:00</updated>
+  <updated>2012-01-03T02:59:23-05:00</updated>
   <id>http://zingweb.heroku.com/</id>
   <author>
     <name><![CDATA[timofei7]]></name>
@@ -46,7 +46,7 @@
 
 <hr />
 
-<p>Here are some simple 2D animals I designed for a pseudo 2D mode where the animals are billboarded to face the camera. This is a bit cuter and better for kids than the current static 3D models. Ideally the pieces will be 3D and animated but for now this will be the cute mode.</p>
+<p>Here are some simple 2D graphicsI designed for a pseudo 2D mode where the animals are billboarded to face the camera. This is a bit cuter and better for kids than the current static 3D models. Ideally the pieces will be 3D and animated but for now this will be the cute mode.</p>
 
 <div id="animalsgalleria"></div>
 
@@ -56,7 +56,7 @@ jQuery('#animalsgalleria').galleria({
 debug: false,
 _toggleInfo: false,
 width: 400,
-picasa: 'useralbum:timofei/2DChessAnimals',
+picasa: 'useralbum:timofei/2DChessGraphics',
 picasaOptions: {
         description: true,
 }
