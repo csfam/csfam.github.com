@@ -4,7 +4,7 @@
   <title><![CDATA[tim tregubov]]></title>
   <link href="http://zingweb.heroku.com/atom.xml" rel="self"/>
   <link href="http://zingweb.heroku.com/"/>
-  <updated>2012-01-02T21:11:16-05:00</updated>
+  <updated>2012-01-03T01:48:00-05:00</updated>
   <id>http://zingweb.heroku.com/</id>
   <author>
     <name><![CDATA[timofei7]]></name>
@@ -2329,14 +2329,18 @@ Graham Baecher, Jen Huang, and Justin Slick. Some good times spent in the lab!</
     <link href="http://zingweb.heroku.com/blog/1998/12/21/chipcarving/"/>
     <updated>1998-12-21T23:04:00-05:00</updated>
     <id>http://zingweb.heroku.com/blog/1998/12/21/chipcarving</id>
-    <content type="html"><![CDATA[<div id="carvinggalleria"></div>
+    <content type="html"><![CDATA[<div id="chipdemogalleria"></div>
 
 
 <script type="text/javascript">
-jQuery('#carvinggalleria').galleria({
+jQuery('#chipdemogalleria').galleria({
 debug: false,
+_toggleInfo: false,
 width: 500,
 picasa: 'useralbum:timofei/ChipCarvingDemo',
+picasaOptions: {
+    description: true,
+}
 });
 </script>
 
@@ -2350,14 +2354,18 @@ picasa: 'useralbum:timofei/ChipCarvingDemo',
 
 
 
-<div id="chipdemogalleria"></div>
+<div id="carvinggalleria"></div>
 
 
 <script type="text/javascript">
-jQuery('#chipdemogalleria').galleria({
+jQuery('#carvinggalleria').galleria({
 debug: false,
+_toggleInfo: false,
 width: 650,
-picasa: 'useralbum:timofei/ChipCarvings',
+picasa: 'useralbum:timofei/Carvings',
+picasaOptions: {
+    description: true,
+}
 });
 </script>
 

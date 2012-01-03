@@ -9,12 +9,16 @@ published: true
 ---
 
 
-<div id="carvinggalleria"></div>
+<div id="chipdemogalleria"></div>
 <script type="text/javascript">
-jQuery('#carvinggalleria').galleria({
+jQuery('#chipdemogalleria').galleria({
 debug: false,
+_toggleInfo: false,
 width: 500,
 picasa: 'useralbum:timofei/ChipCarvingDemo',
+picasaOptions: {
+	description: true,
+}
 });
 </script>
 
@@ -24,12 +28,16 @@ I used to do a lot of chip carving. This is a style of woodcarving found in trad
 
 <!--MORE-->
 
-<div id="chipdemogalleria"></div>
+<div id="carvinggalleria"></div>
 <script type="text/javascript">
-jQuery('#chipdemogalleria').galleria({
+jQuery('#carvinggalleria').galleria({
 debug: false,
+_toggleInfo: false,
 width: 650,
-picasa: 'useralbum:timofei/ChipCarvings',
+picasa: 'useralbum:timofei/Carvings',
+picasaOptions: {
+	description: true,
+}
 });
 </script>
 
