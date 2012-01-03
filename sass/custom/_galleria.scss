@@ -1,0 +1,22 @@
+
+/* This rule is read by Galleria to define the gallery height: */
+#chipdemogalleria{height:480px;}
+#carvinggalleria{height:480px;}
+
+
+.galleria-stage {
+	/* had to add height and width for some reason */
+	height: 900;
+	width: 900;
+}
+
+.galleria-container img {
+        border: 0px;
+}
+
+.galleria-thumbnails {
+	        margin: auto;
+}       
+
+
+
