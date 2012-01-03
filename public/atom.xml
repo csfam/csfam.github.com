@@ -4,7 +4,7 @@
   <title><![CDATA[tim tregubov]]></title>
   <link href="http://zingweb.heroku.com/atom.xml" rel="self"/>
   <link href="http://zingweb.heroku.com/"/>
-  <updated>2012-01-02T20:37:24-05:00</updated>
+  <updated>2012-01-02T21:11:16-05:00</updated>
   <id>http://zingweb.heroku.com/</id>
   <author>
     <name><![CDATA[timofei7]]></name>
@@ -2333,7 +2333,7 @@ Graham Baecher, Jen Huang, and Justin Slick. Some good times spent in the lab!</
 
 
 <script type="text/javascript">
-$('#carvinggalleria').galleria({
+jQuery('#carvinggalleria').galleria({
 debug: false,
 width: 500,
 picasa: 'useralbum:timofei/ChipCarvingDemo',
@@ -2354,7 +2354,7 @@ picasa: 'useralbum:timofei/ChipCarvingDemo',
 
 
 <script type="text/javascript">
-$('#chipdemogalleria').galleria({
+jQuery('#chipdemogalleria').galleria({
 debug: false,
 width: 650,
 picasa: 'useralbum:timofei/ChipCarvings',

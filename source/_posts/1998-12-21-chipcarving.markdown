@@ -11,7 +11,7 @@ published: true
 
 <div id="carvinggalleria"></div>
 <script type="text/javascript">
-$('#carvinggalleria').galleria({
+jQuery('#carvinggalleria').galleria({
 debug: false,
 width: 500,
 picasa: 'useralbum:timofei/ChipCarvingDemo',
@@ -26,7 +26,7 @@ I used to do a lot of chip carving. This is a style of woodcarving found in trad
 
 <div id="chipdemogalleria"></div>
 <script type="text/javascript">
-$('#chipdemogalleria').galleria({
+jQuery('#chipdemogalleria').galleria({
 debug: false,
 width: 650,
 picasa: 'useralbum:timofei/ChipCarvings',
