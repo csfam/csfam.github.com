@@ -8,7 +8,7 @@ title: Spooked and Confused
 categories: portfolio
 comments: true
 sharing: true 
-tags: [animation, digital arts, modeling]
+tags: [animation, digital arts, modeling, 3D]
 ---
 
 <iframe id="spookedandconfused" width="853" height="480" src="http://www.youtube.com/embed/MrN5V19rvAk?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>

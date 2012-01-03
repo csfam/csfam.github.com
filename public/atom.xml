@@ -4,7 +4,7 @@
   <title><![CDATA[tim tregubov]]></title>
   <link href="http://zingweb.heroku.com/atom.xml" rel="self"/>
   <link href="http://zingweb.heroku.com/"/>
-  <updated>2012-01-03T01:48:00-05:00</updated>
+  <updated>2012-01-03T02:51:03-05:00</updated>
   <id>http://zingweb.heroku.com/</id>
   <author>
     <name><![CDATA[timofei7]]></name>
@@ -37,10 +37,34 @@
 <iframe id="gameplay" width="640" height="480" src="http://www.youtube.com/embed/WUUwGmBc7w8?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
+<hr />
+
 <p>And this is an intro sequence test, most of this will change, but the pink screen UI I think is here to stay!</p>
 
 <iframe id="introtest" width="640" height="480" src="http://www.youtube.com/embed/MgGpyQhdSkQ?rel=0" frameborder="0" allowfullscreen></iframe>
 
+
+<hr />
+
+<p>Here are some simple 2D animals I designed for a pseudo 2D mode where the animals are billboarded to face the camera. This is a bit cuter and better for kids than the current static 3D models. Ideally the pieces will be 3D and animated but for now this will be the cute mode.</p>
+
+<div id="animalsgalleria"></div>
+
+
+<script type="text/javascript">
+jQuery('#animalsgalleria').galleria({
+debug: false,
+_toggleInfo: false,
+width: 400,
+picasa: 'useralbum:timofei/2DChessAnimals',
+picasaOptions: {
+        description: true,
+}
+});
+</script>
+
+
+<hr />
 
 <h2>more coming soon</h2>
 ]]></content>
@@ -2243,11 +2267,32 @@ I implemented this in Unity3D in C# using models I created in Maya. All the pola
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Drawing Summer '10]]></title>
+    <title type="html"><![CDATA[Drawing Summer '08]]></title>
     <link href="http://zingweb.heroku.com/blog/2008/08/25/drawing-summer-10/"/>
     <updated>2008-08-25T23:04:00-04:00</updated>
     <id>http://zingweb.heroku.com/blog/2008/08/25/drawing-summer-10</id>
-    <content type="html"><![CDATA[<p>alberto giacommeti human soul sketch</p>
+    <content type="html"><![CDATA[<div id="drawinggalleria"></div>
+
+
+<script type="text/javascript">
+jQuery('#drawinggalleria').galleria({
+debug: false,
+_toggleInfo: false,
+width: 600,
+picasa: 'useralbum:timofei/SART15Summer08',
+picasaOptions: {
+        description: true,
+}
+});
+</script>
+
+
+<p>This was an awesome summer. I lived in a van and spent two nights+ a week in the drawing studio.  Unfortunately most of these photos were taken with a phone camera and so the quality is not that great. I&#8217;ve given most of them away so no chance of retaking. There were lots more but the photos were simply too blurry.</p>
+
+<!--MORE-->
+
+
+<p>When I was a kid I used to love drawing, but by puberty I had exchanged it for computer games and model airplanes.  When I took drawing in college it was like I was a kid again.  This was another one of those fulfilling classes by the end of which I was confident that given some charcoal and paper and time I could create an aesthetically unoffensive and even possibly recognizable likeness of anything.</p>
 ]]></content>
   </entry>
   

@@ -19,7 +19,7 @@
     position: absolute;
     top: 10px;
     /* bottom: 60px;*/
-    bottom: 100px;
+    bottom: 120px;
     left: 10px;
     right: 10px;
     overflow:hidden;
@@ -81,12 +81,12 @@
     /*top: 15px;*/
     left: 15px;
     bottom: 60px;
-    z-index: 2;
+    z-index: 1;
     position: absolute;
 }
 .galleria-info-text {
     background-color: #000;
-    padding: 12px;
+    padding: 0px;
     display: none;
     /* IE7 */ zoom:1;
 }
@@ -94,7 +94,7 @@
     font: bold 0px/0 arial,sans-serif;
     margin: 0;
     color: #000;
-    margin-bottom: 7px;
+    margin-bottom: 0px;
     display: none;
 }
 .galleria-info-description {
