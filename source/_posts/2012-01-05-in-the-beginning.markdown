@@ -2,6 +2,7 @@
 layout: post
 title: "in the beginning"
 date: 2012-01-05 23:53
+author: timofei7
 comments: true
 categories:
 tags: [ramblings]
