@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[portfolio | tim tregubov]]></title>
+  <link href="http://zingweb.heroku.com/blog/categories/portfolio/atom.xml" rel="self"/>
+  <link href="http://zingweb.heroku.com/"/>
+  <updated>2012-01-03T02:59:23-05:00</updated>
+  <id>http://zingweb.heroku.com/</id>
+  <author>
+    <name><![CDATA[timofei7]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[chessInvaders]]></title>
+    <link href="http://zingweb.heroku.com/blog/2011/12/15/chessinvaders/"/>
+    <updated>2011-12-15T01:40:00-05:00</updated>
+    <id>http://zingweb.heroku.com/blog/2011/12/15/chessinvaders</id>
+    <content type="html"><![CDATA[<p>The current project I am working on is an iPad game that teaches basic rules of chess in a fast paced not-quite-chess environment. The game is a small, but fun combination of space invaders and chess.  It teaches and drills the basic movement rules while remaining engaging.</p>
+
+<p>A recentish clip of the 3D environment with touch zoom and pan:</p>
+
+<iframe id="3denv" width="640" height="480" src="http://www.youtube.com/embed/QnLySqbE1is?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+<!--MORE-->
+
+
+<p>Here are some more clips:</p>
+
+<p>This is a clip of some gameplay!</p>
+
+<iframe id="gameplay" width="640" height="480" src="http://www.youtube.com/embed/WUUwGmBc7w8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<hr />
+
+<p>And this is an intro sequence test, most of this will change, but the pink screen UI I think is here to stay!</p>
+
+<iframe id="introtest" width="640" height="480" src="http://www.youtube.com/embed/MgGpyQhdSkQ?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<hr />
+
+<p>Here are some simple 2D graphicsI designed for a pseudo 2D mode where the animals are billboarded to face the camera. This is a bit cuter and better for kids than the current static 3D models. Ideally the pieces will be 3D and animated but for now this will be the cute mode.</p>
+
+<div id="animalsgalleria"></div>
+
+
+<script type="text/javascript">
+jQuery('#animalsgalleria').galleria({
+debug: false,
+_toggleInfo: false,
+width: 400,
+picasa: 'useralbum:timofei/2DChessGraphics',
+picasaOptions: {
+        description: true,
+}
+});
+</script>
+
+
+<hr />
+
+<h2>more coming soon</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[3D Mesh Sculpting using the Kinect]]></title>
+    <link href="http://zingweb.heroku.com/blog/2011/04/27/kinectsculpt/"/>
+    <updated>2011-04-27T01:40:00-04:00</updated>
+    <id>http://zingweb.heroku.com/blog/2011/04/27/kinectsculpt</id>
+    <content type="html"><![CDATA[<iframe id="kinectscuplt" width="853" height="480" src="http://www.youtube.com/embed/4tIXcKJwe8M?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
+
+
+<p>(Tim Tregubov, CS80 Spring 2011)</p>
+
+<p>I had wanted to play/hack a Kinect so I completed an independent study project researching  motion detection techniques, physics reconstruction, and geometry sculpting. I implemented a program to sculpt some 3D geometry with your hands using the Kinect.</p>
+
+<!--more-->
+
+
+<p>Originally the goal was simple: do some Kinect programming.  It then morphed into what was going to become a physics based game in which you have to define physical properties of objects using intuitive physics based gestures.  For instance to define the bounciness of an object you would set the coefficient of restitution by showing the dropped-from height and the first bounce-up-to height using your hands -- simple yet also correct. For friction you could indicate the angle of incline necessary to break static friction with you arms.  Other properties were harder to do intuitively.  One idea was a constant force model in which a progress bar would indicate some total possible energy available to expend and a user would, for instance, mime lifting an object and the progress bar (on a simple timer) would indicate how much force they need to lift the object (mass in relation to earths gravity), the longer (per distance) it took, the more mass the object had.  This was starting to become less intuitive.</p>
+
+<p>The final physical property was shape, and with that came the idea of exploring mesh deformation using the Kinect.  So the final project after much paper reading became simply to implement some of that.  I had never done any motion programming or any image recognition so playing with this was interesting.  After coming up with a fairly uninteresting demo of the coefficient of restitution, I focused on mesh manipulation.</p>
+
+<p>Mesh manipulation (such as in 3D sculpting tools like Mudbox) turned out to be difficult problem to do well.  The geometry tended to get pretty ugly after too much vertex displacement without resorting to lots of tricks to keep the triangles average sized and regular shaped and without subdividing them when they get too stretched out (what you see in the demo is pretty simple: a laplacian smoothing is applied periodically to keep vertices from getting too crazy)</p>
+
+<p>I also wanted to be able to push and pull so I learned a bit of image processing to recognize open vs closed hands.  Open hand pushes the vertices away while closed pulls them toward you.  The pixels of the hand are extracted based on the depth map and hand point from the Kinect and then using the number of convexity defects in the contour to determine whether it is open or closed.</p>
+
+<p>Skills:</p>
+
+<ul>
+<li>Unity3D</li>
+<li>C#</li>
+<li>OpenNI (for skeletal mocap and gestures)</li>
+<li>OpenCV (for hand image processing)</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ENGS21: Gunkless Drain]]></title>
+    <link href="http://zingweb.heroku.com/blog/2010/06/02/engs21/"/>
+    <updated>2010-06-02T01:43:00-04:00</updated>
+    <id>http://zingweb.heroku.com/blog/2010/06/02/engs21</id>
+    <content type="html"><![CDATA[<iframe id="engs21" width="640" height="480" src="http://www.youtube.com/embed/Wk0fobSn1PY?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
+
+
+<p>(Gunkless SolidWorks Design: Tim Tregubov,  Spring 2010)</p>
+
+<p>For the "flagship" engineering class my group, Divya Gunasekaran, Elizabeth Klinger, Alannah Linkhorn, Pavel Sotskov, and myself, designed and built a self-cleaning drain. It was a small device that would retrofit in your shower drain and was foot powered to help clear clogged drains.  By the end of the course we had a working, tested prototype.</p>
+
+<!--more-->
+
+
+<h2>Working Prototype</h2>
+
+<iframe id="engs21_2" width="640" height="480" src="http://www.youtube.com/embed/EyW0I3QAJUw?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p>My goals for the class on the outset were: to learn some machining and SolidWorks --- basically an engineering experience outside of electronics and computer engineering.  That happened, along with some fun design stuff and a lot of report writing and gantt charting.</p>
+
+<p>My contributions to the project were:</p>
+
+<ul>
+<li>SolidWorks design</li>
+<li>rapid prototyping (Object Eden)</li>
+<li>some lathe and milling machining work</li>
+</ul>
+
+
+<p>Here is our <a href="https://s3.amazonaws.com/timofei7portfolio/ENGS21/ENGS21finalpresentation.pdf">final presentation</a></p>
+
+<h3>Some of my initial brainstorming sketches:</h3>
+
+<p><img src="https://s3.amazonaws.com/timofei7portfolio/ENGS21/Slide1.jpg" alt="" />
+<img src="https://s3.amazonaws.com/timofei7portfolio/ENGS21/testdev.jpg" alt="" /></p>
+
+<h3>Annotated SolidWorks concept:</h3>
+
+<p><img src="https://s3.amazonaws.com/timofei7portfolio/ENGS21/colored2.png" alt="" /></p>
+
+<h3>SolidWorks Templates for milling:</h3>
+
+<p><img src="https://s3.amazonaws.com/timofei7portfolio/ENGS21/Scan10001.JPG" alt="" />
+<img src="https://s3.amazonaws.com/timofei7portfolio/ENGS21/Scan10002.JPG" alt="" /></p>
+
+<h3>Rapid prototype pieces:</h3>
+
+<p><img src="https://s3.amazonaws.com/timofei7portfolio/ENGS21/IMG_3115.jpg" alt="" /></p>
+
+<h3>The final machined prototype:</h3>
+
+<p><img src="https://s3.amazonaws.com/timofei7portfolio/ENGS21/IMG_3119.jpg" alt="" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ENGS31 DigitalElectronics -- TiNZ]]></title>
+    <link href="http://zingweb.heroku.com/blog/2009/09/01/tinz/"/>
+    <updated>2009-09-01T01:39:00-04:00</updated>
+    <id>http://zingweb.heroku.com/blog/2009/09/01/tinz</id>
+    <content type="html"><![CDATA[<iframe id="tinz" width="853" height="480" src="http://www.youtube.com/embed/jcJoUI1PBZo?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
+
+
+<p>(Divya Gunasekaran and Tim Tregubov, Summer 2009)</p>
+
+<p>Our goal for this project was to create a simple, but addicting game that played off of old-fashioned handheld and vintage arcade games, but utilized newer technology that allowed for a more modern feel and the implementation of more exciting features. We succeeded in creating a challenging game that takes the user's movements as inputs via an accelerometer to move the player on the board, which consists of a small 8x8 RGB LED matrix with a seven-segment display showing the timer and score. A piezo is also included to produce different sounds for specific actions in the game. These components contribute to a gaming experience that is stimulating both tactilely, visually and aurally. The game design also makes the game easy to reprogram to include more levels and additional features.</p>
+
+<!--more-->
+
+
+<h2>Details</h2>
+
+<p>This was perhaps the most fulfilling class I have ever taken.  In groups of two we designed and built an electronics project from scratch.  We reinvented the original tilt-maze game as a digital moving maze on an RBG 8x8 LED matrix controlled via accelerometer.  Our maze designs included a multicolor fire-spewing dragon, a volcano, and an alien space ship with lasers.</p>
+
+<p>People enjoyed playing the game and we were asked to come back to demo it at various Engineering School events.</p>
+
+<p>The experience of building a working, playable, and enjoyable electronic toy was very empowering.</p>
+
+<p>The basic details of the project and what I learned:</p>
+
+<ul>
+<li>Digital circuits and logic</li>
+<li>VHDL FPGA programming</li>
+<li>Project design</li>
+<li>Accelerometer programming</li>
+<li>LED multi-segment RGB display programming</li>
+<li>Piezo programming</li>
+</ul>
+
+
+<p>Here is the full <a href="https://s3.amazonaws.com/timofei7portfolio/TiNZ/engs31FinalReport.pdf">project report</a> with schematics and software design.<br/>
+(note: section 7 with complete code is omitted, but I may post it if people are interested)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Greenlite Dartmouth]]></title>
+    <link href="http://zingweb.heroku.com/blog/2009/07/20/greenlite-dartmouth/"/>
+    <updated>2009-07-20T22:10:00-04:00</updated>
+    <id>http://zingweb.heroku.com/blog/2009/07/20/greenlite-dartmouth</id>
+    <content type="html"><![CDATA[<iframe id="greenlite" width="640" height="480" src="http://www.youtube.com/embed/RGeYHYpLQa8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p>The Greenlite Project: An animated polar bear which aims to educate students about the impact of electricity and other resource use.</p>
+
+<p>This was a Siggraph 2009 information aesthetics video submission we made. Although we didn't get into the information aesthetics category we did end up with a Siggraph Poster and were invited to a Panel. This video provides a good summary of what the project was about.</p>
+
+<!--more-->
+
+
+<h1>Greenlite Dartmouth (aka TellEmotion)</h1>
+
+<p>Together with one of my favorite professors and two other students we founded a startup called TellEmotion (from Tim/Evan/Lorie/Luke).  The idea was to present electrical usage in an intuitive emotionally appealing way.  We designed and implemented a system for reading electrical meters on campus which would then feed into an animation of a polar bear.   The state of the bear would change based on the how efficiently the resources were being used.  If electrical usage was up (either compared to historical data or to some target goals) then the bear would be unhappy and its environment would be melting, if electrical usage was down, then it would play and be happy.  This was based on some research that showed that behavior change is sometimes better driven by emotional rewards rather than strictly financial considerations.  The system was a success and is now installed in many dorms and buildings on the campus as well as in other schools nationwide.   Although the most benefit comes from the educational aspect of the system, it has been shown to decrease energy usage over time.</p>
+
+<h2>Semi-Publications</h2>
+
+<p>Here is a paper we submitted to Siggraph (not accepted): <a href="https://s3.amazonaws.com/timofei7portfolio/greenlite/siggraph_paper.pdf">Greenlite Dartmouth</a></p>
+
+<p>Here is our Poster (was accepted): <a href="https://s3.amazonaws.com/timofei7portfolio/greenlite/GreenLitePosterSiggraph.pdf">Greenlite Poster</a></p>
+
+<h2>Original Flash Version</h2>
+
+<p>My contributions ranged from system design and implementation to administration.  I worked on a number of pieces, including the communication with the electrical meters, brainstorming design and system architecture, poller (Java), server configuration and fronted display configuration and setup.  Additionally in the video you can see some parts of a 3D environment that I designed (with help from Craig Slagel and others), as well as a brief glance at a 3D Dartmouth campus for which I wrote the Unity3d code to do a navigation map.</p>
+
+<p><strong>Brief Technical Details:</strong> The fronted was flash and GWT with the Java backed and mysql database fed with minute by minute electrical data by a Java poller. More details in the <a href="https://s3.amazonaws.com/timofei7portfolio/greenlite/siggraph_paper.pdf">paper</a>.</p>
+
+<h2>3D Version</h2>
+
+<p>Toward the end of my time with the project I worked on a more game-like realtime interactive 3D variant in which everything responds to the energy use. This was designed as a web demo so the energy use is controllable by clicking on the light bulbs. Other parts of the environment also react to various things, the bear can look at the monitoring station (update: the image source for the realtime graph is no longer available), and pretty much everything in the world responds one way or another to the energy use.</p>
+
+<p><strong>Brief Technical Details:</strong>
+I implemented this in Unity3D in C# using models I created in Maya. All the polar bear animation is motion capture of… me…  The system does have the capability to connect to the metering backend and get realtime energy data (same as the 2D version), however for the web demo that is turned off.</p>
+
+<p><strong>Try it out, click around!   <a href="/pages/pBear.html">Polar Bear 3D demo</a></strong></p>
+
+<h2>Lessons Learned</h2>
+
+<p>I learned a lot on this project, from electrical metering to architecting a larger scale software project to working with motioncapture and a 3D game engine.  Another important lesson was that 3D is not necessarily better. Although people responded positively to the 3D animations (more so the quadruped version in the video than the biped in the web demo), the 3D version would have required many more man hours and at that stage in the project was simply too work intensive.</p>
+
+<p>You can see it all live at Dartmouth right now here: <a href="http://greenlite.dartmouth.edu">Greenlite Dartmouth</a></p>
+]]></content>
+  </entry>
+  
+</feed>

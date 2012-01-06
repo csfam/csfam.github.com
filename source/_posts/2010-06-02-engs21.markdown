@@ -1,0 +1,49 @@
+---
+layout: post
+title: "ENGS21: Gunkless Drain"
+date: 2010-06-02 01:43
+comments: true
+categories: portfolio 
+tags: [engineering]
+---
+
+<iframe id="engs21" width="640" height="480" src="http://www.youtube.com/embed/Wk0fobSn1PY?rel=0&amp;hd=1" frameborder="0" allowfullscreen></iframe>
+(Gunkless SolidWorks Design: Tim Tregubov,  Spring 2010)
+
+For the "flagship" engineering class my group, Divya Gunasekaran, Elizabeth Klinger, Alannah Linkhorn, Pavel Sotskov, and myself, designed and built a self-cleaning drain. It was a small device that would retrofit in your shower drain and was foot powered to help clear clogged drains.  By the end of the course we had a working, tested prototype.  
+
+<!--more-->
+
+
+##Working Prototype##
+
+
+<iframe id="engs21_2" width="640" height="480" src="http://www.youtube.com/embed/EyW0I3QAJUw?rel=0" frameborder="0" allowfullscreen></iframe>
+
+My goals for the class on the outset were: to learn some machining and SolidWorks --- basically an engineering experience outside of electronics and computer engineering.  That happened, along with some fun design stuff and a lot of report writing and gantt charting.  
+ 
+My contributions to the project were:
+
+* SolidWorks design
+* rapid prototyping (Object Eden)
+* some lathe and milling machining work
+
+Here is our [final presentation](https://s3.amazonaws.com/timofei7portfolio/ENGS21/ENGS21finalpresentation.pdf)
+
+
+###Some of my initial brainstorming sketches:###
+![](https://s3.amazonaws.com/timofei7portfolio/ENGS21/Slide1.jpg)
+![](https://s3.amazonaws.com/timofei7portfolio/ENGS21/testdev.jpg)
+
+###Annotated SolidWorks concept:###
+![](https://s3.amazonaws.com/timofei7portfolio/ENGS21/colored2.png)
+
+###SolidWorks Templates for milling:###
+![](https://s3.amazonaws.com/timofei7portfolio/ENGS21/Scan10001.JPG)
+![](https://s3.amazonaws.com/timofei7portfolio/ENGS21/Scan10002.JPG)
+
+###Rapid prototype pieces:###
+![](https://s3.amazonaws.com/timofei7portfolio/ENGS21/IMG_3115.jpg)
+
+###The final machined prototype:###
+![](https://s3.amazonaws.com/timofei7portfolio/ENGS21/IMG_3119.jpg)

@@ -1,0 +1,107 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+@import "_newarchive";
+@import "_resume";
+@import "_galleria";
+
+
+//#headleft { float: left}
+//#headright { float: left}
+//.clear {clear: both;}
+body > header h1:before {
+      content:"";
+      position:absolute;
+      //left:0px;
+      right:0px;
+      top:4px;
+      height:100px;
+      width:150px;
+      overflow:hidden;
+      text-align:left;
+      background-image:url('/images/profile.png');
+      background-repeat:no-repeat;
+      @media only screen and (max-width: 992px) {
+	top:0px;
+     } 
+}
+
+
+// overrides all this garbage so that the images are just on the their own the other profile box
+aside.sidebar .profile img{
+	padding: 10px; 
+	border: 0;
+	-webkit-border-radius: 0em;
+	-khtml-border-radius: 0em;
+	border-radius: 0em;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+aside.sidebar .profile a {
+	padding-left: 28px;
+	white-space:nowrap;
+	display: block;
+}
+aside.sidebar .profile li {
+ //padding-left: 28px;
+ padding-top: 10px;
+ background-repeat: no-repeat;
+ background-position: 0 .5em;
+}
+
+aside.sidebar .profile li#linkedin{ background-image: url(/images/linkedin.png); }
+aside.sidebar .profile li#youtube{ background-image: url(/images/youtube.png); }
+aside.sidebar .profile li#facebook{ background-image: url(/images/facebook.png); }
+aside.sidebar .profile li#picasa{ background-image: url(/images/picasa.png); }
+
+
+
+
+h1 {
+font-size: 1.2em;
+line-height: 1.2em;
+}
+
+#content .blog-index article h1 {
+font-size: 1.2em;
+}
+
+
+body {
+	font-size: .9em;
+}
+
+#blog-archives h1 a {
+	font-size: .9em;
+}
+
+#content .blog-index a[rel="full-article"] {
+font-size: .8em;
+}
+
+
+p {
+-webkit-margin-before: .7em;
+-webkit-margin-after: .7em;
+}
+
+aside.sidebar a { text-decoration: none }
+
+//the blockquotes are too biiiig
+blockquote {
+	font-size: 1em;
+}
+
+//span.rank-5 { font-size: 1em; font-weight: 100; }
+//span.rank-4 { font-size: 1.2em; font-weight: 200; }
+//span.rank-3 { font-size: 1.4em; font-weight: 300; }
+//span.rank-2 { font-size: 1.6em; font-weight: 400; }
+//span.rank-1 { font-size: 1.8em; font-weight: 500; }
+
+
+
+//#blog-archives .entry-content {
+//	display: inline;
+//}
