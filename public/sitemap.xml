@@ -1,101 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://zingweb.heroku.com/blog/1998/12/21/chipcarving/</loc>
-        <lastmod>2012-01-03T01:48:00-05:00</lastmod>
+        <loc>http://csfam.github.com/blog/2012/01/05/in-the-beginning/</loc>
+        <lastmod>2012-01-06T00:08:00-05:00</lastmod>
     </url>
     <url>
-        <loc>http://zingweb.heroku.com/blog/2008/05/06/spooked-and-confused/</loc>
-        <lastmod>2012-01-03T02:30:41-05:00</lastmod>
+        <loc>http://csfam.github.com/about/</loc>
+        <lastmod>2012-01-05T23:39:08-05:00</lastmod>
     </url>
     <url>
-        <loc>http://zingweb.heroku.com/blog/2008/08/25/drawing-summer-10/</loc>
-        <lastmod>2012-01-03T02:32:08-05:00</lastmod>
+        <loc>http://csfam.github.com/blog/archives/</loc>
+        <lastmod>2012-01-06T00:08:00-05:00</lastmod>
     </url>
     <url>
-        <loc>http://zingweb.heroku.com/blog/2009/07/20/greenlite-dartmouth/</loc>
-        <lastmod>2011-12-20T21:25:24-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://zingweb.heroku.com/blog/2009/09/01/tinz/</loc>
-        <lastmod>2011-12-20T21:24:15-05:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://zingweb.heroku.com/blog/2009/11/09/geopolitical-representations-in-a-networked-world-current-and-future/
-        </loc>
-        <lastmod>2011-12-12T15:43:31-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://zingweb.heroku.com/blog/2010/01/03/conscious-evolution/</loc>
-        <lastmod>2011-12-12T15:43:31-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://zingweb.heroku.com/blog/2010/01/10/fear-happiness/</loc>
-        <lastmod>2011-12-12T15:43:31-05:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://zingweb.heroku.com/blog/2010/02/19/assignment-write-about-where-i-see-myself-in-x-number-of-years/
-        </loc>
-        <lastmod>2011-12-13T00:04:35-05:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://zingweb.heroku.com/blog/2010/02/28/a-moment-in-the-life-of-camus-sisyphus/
-        </loc>
-        <lastmod>2011-12-12T15:43:31-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://zingweb.heroku.com/blog/2010/03/11/flow-and-education/</loc>
-        <lastmod>2011-12-13T20:54:50-05:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://zingweb.heroku.com/blog/2010/04/30/why-the-dlpfc-is-the-coolest-part-of-the-brain/
-        </loc>
-        <lastmod>2011-12-12T15:43:31-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://zingweb.heroku.com/blog/2010/06/02/engs21/</loc>
-        <lastmod>2011-12-20T21:25:58-05:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://zingweb.heroku.com/blog/2010/06/08/a-paper-the-neural-mechanisms-and-purposes-of-randomness-in-consciousness/
-        </loc>
-        <lastmod>2011-12-12T15:43:31-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://zingweb.heroku.com/blog/2011/04/27/kinectsculpt/</loc>
-        <lastmod>2011-12-21T00:25:11-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://zingweb.heroku.com/blog/2011/12/15/chessinvaders/</loc>
-        <lastmod>2012-01-03T02:59:21-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://zingweb.heroku.com/about/</loc>
-        <lastmod>2011-12-13T16:20:54-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://zingweb.heroku.com/blog/about.html</loc>
-        <lastmod>2011-12-08T21:46:48-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://zingweb.heroku.com/blog/archives/</loc>
-        <lastmod>2012-01-03T02:59:21-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://zingweb.heroku.com/</loc>
-        <lastmod>2012-01-03T02:59:21-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://zingweb.heroku.com/research-statement/</loc>
-        <lastmod>2011-12-25T21:46:02-05:00</lastmod>
-    </url>
-    <url>
-        <loc>http://zingweb.heroku.com/resume/</loc>
-        <lastmod>2011-12-13T16:02:56-05:00</lastmod>
+        <loc>http://csfam.github.com/</loc>
+        <lastmod>2012-01-06T00:08:00-05:00</lastmod>
     </url>
 </urlset>
