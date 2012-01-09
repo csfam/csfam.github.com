@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[csfam]]></title>
+  <link href="http://csfam.github.com/atom.xml" rel="self"/>
+  <link href="http://csfam.github.com/"/>
+  <updated>2012-01-09T11:54:47-05:00</updated>
+  <id>http://csfam.github.com/</id>
+  <author>
+    <name><![CDATA[csfam]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[in the beginning]]></title>
+    <link href="http://csfam.github.com/blog/2012/01/05/in-the-beginning/"/>
+    <updated>2012-01-05T23:53:00-05:00</updated>
+    <id>http://csfam.github.com/blog/2012/01/05/in-the-beginning</id>
+    <content type="html"><![CDATA[<p>There was this group of people, who got to know each other in the basement of a computer lab.  They were a talented bunch, during their time in the lab they made interesting projects and had fun working with each other.  They made a good team.  Then the good times were over and they had to graduate.  They all went their separate ways, but many of them later, during cold rainy nights sitting in front of computers in cubicles working on other people&#8217;s work, would remember those good times and wish they could be part of something like that sometime again.</p>
+
+<p>Many years later, they get laid-off from their jobs at the big corporations to be replaced by new dream-filled youth &#8211; youth just as ready to give up their dreams, creativity and energy in exchange for job security.   As they leave the building and watch the new hires take their places they wonder if it could have been different.</p>
+
+<p>…</p>
+
+<p>Wait a sec!  It can be different!  We are all talented, energetic, and good at what we do!  We are creative.  We love applying ourselves to new projects.  There is no reason not to harness this power!  We are powerful!  We love cs and graphics and making things.  We are scientists and inventors, artists and artisans, and we are funny and fun.  We play flash games and we waste time on tv shows, and we create and deliver.</p>
+
+<p>CSFAM &#8211; is the chance for all of us to do what we want, what we&#8217;re interested in, to create the work that we love with the people we love working with.</p>
+]]></content>
+  </entry>
+  
+</feed>
