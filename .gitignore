@@ -6,7 +6,6 @@
 .rbenv-version
 .rvmrc
 .themes
-_deploy
 public
 sass.old
 source.old
