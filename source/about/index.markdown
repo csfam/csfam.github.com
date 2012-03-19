@@ -7,3 +7,4 @@ sharing: false
 footer: true
 ---
 
+We are a group of friends who love to hang out, code, work on awesome stuff and hopefully make a living changing the world one line of code at a time.
