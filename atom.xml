@@ -4,7 +4,7 @@
   <title><![CDATA[csfam]]></title>
   <link href="http://csfam.github.com/atom.xml" rel="self"/>
   <link href="http://csfam.github.com/"/>
-  <updated>2012-01-09T13:16:54-05:00</updated>
+  <updated>2012-03-21T01:28:18-04:00</updated>
   <id>http://csfam.github.com/</id>
   <author>
     <name><![CDATA[csfam]]></name>
@@ -12,6 +12,46 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Measuring Heroku's concurrent request performance for long-running requests]]></title>
+    <link href="http://csfam.github.com/blog/2012/01/17/measuring-herokus-concurrent-request-performance/"/>
+    <updated>2012-01-17T00:32:00-05:00</updated>
+    <id>http://csfam.github.com/blog/2012/01/17/measuring-herokus-concurrent-request-performance</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve been meaning to write some posts here for a while, and I&#8217;m glad I&#8217;m finally getting around to it. The first thing I wanted to write about is some testing we did a couple months back with the number of concurrent user requests that could be handled by <a href="http://www.heroku.com">Heroku</a> using a variety of backend technologies. But first off, in case you&#8217;ve managed to miss it &#8211; what is Heroku, why are we using it, and how does it work?</p>
+
+<ul>
+<li>It is a cloud-based application platform with built-in scalability and management tools.</li>
+<li>It makes things dead simple from deployment to scaling up.</li>
+<li>It&#8217;s free as long as you stay under a monthly traffic limit, which is perfect if you&#8217;re just starting up your idea.</li>
+<li>Essentially dynos handle web requests within the Heroku architecture, and scaling up your application is just a matter of increasing the number of dynos you are using. Piece of cake.</li>
+</ul>
+
+
+<p>One of the other nice things about Heroku is it provides developers with a good amount of freedom in terms of what languages and frameworks can be used. Heroku will support JVM-based languages (Java, Scala, etc.), Ruby, Node.js, and Python. We were considering a number of options for the language and framework to use for our latest project, <a href="http://demo.udunit.com">udunit</a>, and we had narrowed our list down to <a href="http://scala-lang.org">Scala</a> and the <a href="http://liftweb.net/">Lift framework</a>, <a href="http://www.python.org">Python</a> and the <a href="https://www.djangoproject.com/">Django framework</a>, or <a href="http://nodejs.org">Node.js</a> and the <a href="http://expressjs.com">Express framework</a>.</p>
+
+<h2>The Tests</h2>
+
+<p>We set up very simple Heroku projects &#8211; one for each of the three frameworks mentioned above &#8211; that would result in a long-running request (i.e. the server was &#8220;busy&#8221; generating the response for ~2 seconds). Using the <a href="http://httpd.apache.org/docs/2.4/programs/ab.html">Apache Bench</a> tool, we were able to do some load testing of the various frameworks running on Heroku. What we really wanted to test was how well a single Heroku dyno would handle concurrent requests. So we ran tests via Apache Bench with increasingly more concurrent requests: 1, 2, 3, 4,5, 10, 20.</p>
+
+<h2>The Results</h2>
+
+<script type="text/javascript" src="http://csfam.github.com//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AlrawxK1noHLdExqRUhLWFp6YXkwaFVyOENseE1TZkE&transpose=0&headers=1&merge=COLS&range=B2%3AB9%2CH2%3AI9&gid=0&pub=1","options":{"vAxes":[{"title":"requests per second handled","minValue":null,"viewWindowMode":"pretty","viewWindow":{"min":null,"max":null},"maxValue":null},{"viewWindowMode":"pretty","viewWindow":{}}],"title":"Node.js -- Express framework","booleanRole":"certainty","animation":{"duration":500},"vAxis":{"format":""},"useFirstColumnAsDomain":true,"hAxis":{"title":"concurrent requests","format":""},"isStacked":false,"width":600,"height":371},"state":{},"view":{"columns":[{"calc":"stringify","type":"string","sourceColumn":0},1,2]},"chartType":"ColumnChart","chartName":"Chart 1"} </script>
+
+
+
+
+<script type="text/javascript" src="http://csfam.github.com//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AlrawxK1noHLdExqRUhLWFp6YXkwaFVyOENseE1TZkE&transpose=0&headers=1&merge=COLS&range=B14%3AB21%2CH14%3AI21&gid=0&pub=1","options":{"vAxes":[{"title":"requests per second handled","minValue":null,"viewWindowMode":"pretty","viewWindow":{"min":null,"max":null},"maxValue":null},{"viewWindowMode":"pretty","viewWindow":{}}],"booleanRole":"certainty","title":"Python -- Django framework","animation":{"duration":500},"vAxis":{"format":""},"useFirstColumnAsDomain":true,"hAxis":{"title":"concurrent requests","format":""},"isStacked":false,"width":600,"height":371},"state":{},"view":{"columns":[{"calc":"stringify","type":"string","sourceColumn":0},1,2]},"chartType":"ColumnChart","chartName":"Chart 2"} </script>
+
+
+
+
+<script type="text/javascript" src="http://csfam.github.com//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AlrawxK1noHLdExqRUhLWFp6YXkwaFVyOENseE1TZkE&transpose=0&headers=1&merge=COLS&range=B26%3AB33%2CH26%3AI33&gid=0&pub=1","options":{"vAxes":[{"title":"requests per second handled","minValue":null,"viewWindowMode":"pretty","viewWindow":{"min":null,"max":null},"maxValue":null},{"viewWindowMode":"pretty","viewWindow":{}}],"booleanRole":"certainty","title":"Scala -- Lift framework","animation":{"duration":500},"vAxis":{"format":""},"useFirstColumnAsDomain":true,"hAxis":{"title":"concurrent requests","format":""},"isStacked":false,"width":600,"height":371},"state":{},"view":{"columns":[{"calc":"stringify","type":"string","sourceColumn":0},1,2]},"chartType":"ColumnChart","chartName":"Chart 3"} </script>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[in the beginning]]></title>

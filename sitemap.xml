@@ -2,18 +2,24 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://csfam.github.com/blog/2012/01/05/in-the-beginning/</loc>
-        <lastmod>2012-01-09T12:40:48-05:00</lastmod>
+        <lastmod>2012-03-19T00:26:38-04:00</lastmod>
     </url>
     <url>
-        <loc>http://csfam.github.com/about/</loc>
-        <lastmod>2012-01-09T12:40:48-05:00</lastmod>
+        <loc>
+            http://csfam.github.com/blog/2012/01/17/measuring-herokus-concurrent-request-performance/
+        </loc>
+        <lastmod>2012-03-21T01:25:49-04:00</lastmod>
     </url>
     <url>
         <loc>http://csfam.github.com/blog/archives/</loc>
-        <lastmod>2012-01-09T12:40:48-05:00</lastmod>
+        <lastmod>2012-03-21T01:25:49-04:00</lastmod>
     </url>
     <url>
         <loc>http://csfam.github.com/</loc>
-        <lastmod>2012-01-09T12:40:48-05:00</lastmod>
+        <lastmod>2012-03-21T01:25:49-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://csfam.github.com/about/</loc>
+        <lastmod>2012-03-21T00:36:34-04:00</lastmod>
     </url>
 </urlset>
