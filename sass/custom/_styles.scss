@@ -26,6 +26,9 @@ body > header h1:before {
      } 
 }
 
+body > header h1 {
+     text-shadow: black 1px 1px;
+}
 
 // overrides all this garbage so that the images are just on the their own the other profile box
 aside.sidebar .profile img{
@@ -60,17 +63,18 @@ aside.sidebar .profile li#picasa{ background-image: url(/images/picasa.png); }
 
 
 h1 {
-font-size: 1.2em;
-line-height: 1.2em;
+font-size: 1.6em;
+line-height: 1.6em;
 }
 
 #content .blog-index article h1 {
-font-size: 1.2em;
+font-size: 1.6em;
 }
 
 
 body {
 	font-size: .9em;
+	max-width: 1000px;
 }
 
 #blog-archives h1 a {
