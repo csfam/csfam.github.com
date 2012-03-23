@@ -4,7 +4,7 @@
   <title><![CDATA[csfam]]></title>
   <link href="http://csfam.github.com/atom.xml" rel="self"/>
   <link href="http://csfam.github.com/"/>
-  <updated>2012-03-21T01:28:18-04:00</updated>
+  <updated>2012-03-23T01:06:23-04:00</updated>
   <id>http://csfam.github.com/</id>
   <author>
     <name><![CDATA[csfam]]></name>
@@ -32,24 +32,23 @@
 
 <h2>The Tests</h2>
 
-<p>We set up very simple Heroku projects &#8211; one for each of the three frameworks mentioned above &#8211; that would result in a long-running request (i.e. the server was &#8220;busy&#8221; generating the response for ~2 seconds). Using the <a href="http://httpd.apache.org/docs/2.4/programs/ab.html">Apache Bench</a> tool, we were able to do some load testing of the various frameworks running on Heroku. What we really wanted to test was how well a single Heroku dyno would handle concurrent requests. So we ran tests via Apache Bench with increasingly more concurrent requests: 1, 2, 3, 4,5, 10, 20.</p>
+<p>We set up very simple Heroku projects &#8211; one for each of the three frameworks mentioned above &#8211; that would result in a long-running request (i.e. the server was &#8220;busy&#8221; generating the response for ~2 seconds). Using the <a href="http://httpd.apache.org/docs/2.4/programs/ab.html">Apache Bench</a> tool, we were able to do some load testing of the various frameworks running on Heroku. What we really wanted to test was how well a single Heroku dyno would handle concurrent requests. So we ran tests via Apache Bench with increasingly more concurrent requests: 1, 2, 3, 4,5, 10, 20. The tests each hit a page which would trigger a long-running request. The tests were executed with a command like</p>
+
+<pre><code> ab -n 200 -c 20
+</code></pre>
+
+<p>for 200 total requests with 20 requests at a time. Apache Bench provides data on the requests sent, such as the average number of requests handled per second (see graph below) or the min/max time taken to handle a single request. Using this data we were able to get an idea of what one Heroku dyno could handle.</p>
 
 <h2>The Results</h2>
 
-<script type="text/javascript" src="http://csfam.github.com//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AlrawxK1noHLdExqRUhLWFp6YXkwaFVyOENseE1TZkE&transpose=0&headers=1&merge=COLS&range=B2%3AB9%2CH2%3AI9&gid=0&pub=1","options":{"vAxes":[{"title":"requests per second handled","minValue":null,"viewWindowMode":"pretty","viewWindow":{"min":null,"max":null},"maxValue":null},{"viewWindowMode":"pretty","viewWindow":{}}],"title":"Node.js -- Express framework","booleanRole":"certainty","animation":{"duration":500},"vAxis":{"format":""},"useFirstColumnAsDomain":true,"hAxis":{"title":"concurrent requests","format":""},"isStacked":false,"width":600,"height":371},"state":{},"view":{"columns":[{"calc":"stringify","type":"string","sourceColumn":0},1,2]},"chartType":"ColumnChart","chartName":"Chart 1"} </script>
+<p>Here we have a chart showing the number of requests handled per second for each of the three frameworks. Everyone was able to keep up while the number of concurrent requests was small; at 5 concurrent requests, all the frameworks were handling ~2.5 requests per second &#8211; so pretty close to ideal (5 requests / 2 second long-running request = 2.5 requests per second).</p>
+
+<script type="text/javascript" src="http://csfam.github.com//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AlrawxK1noHLdExqRUhLWFp6YXkwaFVyOENseE1TZkE&transpose=0&headers=1&merge=COLS&range=B2%3AB9%2CH2%3AH9%2CH14%3AH21%2CH26%3AH33%2CI2%3AI9&gid=0&pub=1","options":{"vAxes":[{"title":"requests per second handled","minValue":null,"viewWindowMode":"pretty","viewWindow":{"min":null,"max":null},"maxValue":null},{"viewWindowMode":"pretty","viewWindow":{}}],"series":{"1":{"color":"#109618"},"3":{"color":"#dc3912"}},"booleanRole":"certainty","title":"Concurrent requests handled via Heroku","animation":{"duration":500},"vAxis":{"format":""},"useFirstColumnAsDomain":true,"hAxis":{"title":"concurrent requests","format":""},"isStacked":false,"width":600,"height":371},"state":{},"view":{"columns":[{"calc":"stringify","type":"string","sourceColumn":0},1,2,3,4]},"chartType":"ColumnChart","chartName":"Chart 1"} </script>
 
 
+<p>When the load started getting higher, performance began dropping off (mainly in the python-django setup, somewhat in the scala-lift setup, hardly at all for node.js and express). Moving up to 50 concurrent requests, both Django and Lift became hardly useable, though surprisingly Express maintained a very high level of performance. Node.js and Express were the clear winners here, though it should be noted that we were going with the default configuration for Lift and Django. With better tuning of the server configuration, we could probably get higher performance from these two frameworks.</p>
 
-
-<script type="text/javascript" src="http://csfam.github.com//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AlrawxK1noHLdExqRUhLWFp6YXkwaFVyOENseE1TZkE&transpose=0&headers=1&merge=COLS&range=B14%3AB21%2CH14%3AI21&gid=0&pub=1","options":{"vAxes":[{"title":"requests per second handled","minValue":null,"viewWindowMode":"pretty","viewWindow":{"min":null,"max":null},"maxValue":null},{"viewWindowMode":"pretty","viewWindow":{}}],"booleanRole":"certainty","title":"Python -- Django framework","animation":{"duration":500},"vAxis":{"format":""},"useFirstColumnAsDomain":true,"hAxis":{"title":"concurrent requests","format":""},"isStacked":false,"width":600,"height":371},"state":{},"view":{"columns":[{"calc":"stringify","type":"string","sourceColumn":0},1,2]},"chartType":"ColumnChart","chartName":"Chart 2"} </script>
-
-
-
-
-<script type="text/javascript" src="http://csfam.github.com//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AlrawxK1noHLdExqRUhLWFp6YXkwaFVyOENseE1TZkE&transpose=0&headers=1&merge=COLS&range=B26%3AB33%2CH26%3AI33&gid=0&pub=1","options":{"vAxes":[{"title":"requests per second handled","minValue":null,"viewWindowMode":"pretty","viewWindow":{"min":null,"max":null},"maxValue":null},{"viewWindowMode":"pretty","viewWindow":{}}],"booleanRole":"certainty","title":"Scala -- Lift framework","animation":{"duration":500},"vAxis":{"format":""},"useFirstColumnAsDomain":true,"hAxis":{"title":"concurrent requests","format":""},"isStacked":false,"width":600,"height":371},"state":{},"view":{"columns":[{"calc":"stringify","type":"string","sourceColumn":0},1,2]},"chartType":"ColumnChart","chartName":"Chart 3"} </script>
-
-
-
+<p>In the end we decided to go with the Lift framework. It&#8217;s performance was still strong and increasing system responsiveness while under high load is just a matter of increasing the number of Heroku dynos being used. Lift also provides a much fuller and more powerful framework than Express does. In the end Lift&#8217;s strong performance and rich set of features won us over. But I&#8217;m definitely going to push for some Node.js projects in the future ;)</p>
 ]]></content>
   </entry>
   
