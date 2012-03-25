@@ -4,7 +4,7 @@
   <title><![CDATA[csfam]]></title>
   <link href="http://csfam.github.com/atom.xml" rel="self"/>
   <link href="http://csfam.github.com/"/>
-  <updated>2012-03-23T01:06:23-04:00</updated>
+  <updated>2012-03-25T19:20:46-04:00</updated>
   <id>http://csfam.github.com/</id>
   <author>
     <name><![CDATA[csfam]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The Tech Behind Udunit]]></title>
+    <link href="http://csfam.github.com/blog/2012/01/25/the-tech-behind-udunit/"/>
+    <updated>2012-01-25T18:10:00-05:00</updated>
+    <id>http://csfam.github.com/blog/2012/01/25/the-tech-behind-udunit</id>
+    <content type="html"><![CDATA[<p>One of the first problems we encountered in building Udunit was choosing the technologies we wanted to use.  Given three people with relatively strong opinions, agreeing on technologies to use was no easy task.  Luckily, after discussing at length our various options, we were able to persuade one another to a more or less unanimous conclusion.</p>
+
+<h3>Hosting</h3>
+
+<p>We were all leaning towards <a href="http://www.heroku.com">Heroku</a> but spent some time discussing the benefits of <a href="http://aws.amazon.com/ec2">Amazon EC2</a>.  We liked the idea of having the freedom and control over our servers, but ultimately wanted something that was easy to deploy to and required little maintenance.  Heroku gave us the most value for the least amount of work so that was that.</p>
+
+<h3>Database</h3>
+
+<p>After watching one of <a href="http://www.10gen.com/presentations/mongonyc-2011/foursquare">Foursquare&#8217;s tech talks</a>, Ray became enamored with <a href="http://www.mongodb.org">Mongodb</a> and was a big proponent for using it in Udunit.  The parts that particularly appealed to us were the JSON style storage, auto-scaling/sharding and full index support.  We were a little wary about using NoSQL, considering all of us were more used to relational databases like MySQL, but we were excited about the possibilities.  Plus, despite our familiarity with MySQL, we were also frustrated with the hassle in scaling, the restriction in schema design and the performance.</p>
+
+<h3>API Framework</h3>
+
+<p>Ray also pushed for using <a href="http://liftweb.net/">Lift/Scala</a> for our API framework (hint: Foursquare <a href="https://docs.google.com/present/view?id=dcbpz3ck_25czcns2c2&amp;revision=_latest&amp;start=0&amp;theme=blank&amp;cwj=true">uses</a> it).  Honestly, the biggest selling point here for us was the novelty of using a new language that reduces the verbosity of Java and encourages functional programming.</p>
+
+<h3>Web Framework</h3>
+
+<p>We had a variety of options here.  A couple of us have used Django, GWT and Struts before so we had some stronger opinions.  However, considering we were using Lift for our API framework, we ultimately decided that Lift on the frontend would accelerate our learning curve and also simplify the number of technologies we had to learn.  We were also intrigued by the idea behind Snippets which seemed like a completely new way of thinking about frontend design.</p>
+
+<h3>Conclusions thus far..</h3>
+
+<p>We&#8217;ve been using these technologies for a couple weeks now.  Scala has proven to be an extraodinary language with a bit of a painful learning curve.  But, so far, no complaints.  We&#8217;re excited to be learning these technologies and having fun while doing it!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Measuring Heroku's concurrent request performance for long-running requests]]></title>
