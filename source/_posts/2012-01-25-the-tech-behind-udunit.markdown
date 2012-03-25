@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "The Tech Behind Udunit"
+author: Jen
 date: 2012-01-25 18:10
 comments: true
-tags: technology hosting database api framework 
+tags: technology hosting database api framework scala lift mongodb heroku 
 ---
 
 One of the first problems we encountered in building Udunit was choosing the technologies we wanted to use.  Given three people with relatively strong opinions, agreeing on technologies to use was no easy task.  Luckily, after discussing at length our various options, we were able to persuade one another to a more or less unanimous conclusion.
@@ -18,7 +19,7 @@ After watching one of [Foursquare's tech talks](http://www.10gen.com/presentatio
 A few of us also pushed for using [Lift/Scala](http://liftweb.net/) for our API framework (hint: Foursquare [uses](https://docs.google.com/present/view?id=dcbpz3ck_25czcns2c2&revision=_latest&start=0&theme=blank&cwj=true) it).  Honestly, the biggest selling point here for us was the novelty of using a new language that reduces the verbosity of Java and encourages functional programming.
 
 ### Web Framework
-We had a variety of options here.  A couple of us have used Django, GWT and Struts before so we had some stronger opinions.  However, considering we were using Lift for our API framework, we ultimately decided that Lift on the frontend would accelerate our learning curve and also simplify the number of technologies we had to learn.  We were also intrigued by the idea behind Snippets which seemed like a completely new way of thinking about frontend design.
+We had a variety of options here.  A couple of us have used Django, GWT and Struts before so we had some stronger opinions (one of which was absolutely no GWT).  However, considering we were using Lift for our API framework, we ultimately decided that Lift on the frontend would accelerate our learning curve and also simplify the number of technologies we had to learn.  We were also intrigued by the idea behind Snippets which seemed like a completely new way of thinking about frontend design.
 
 ### Conclusions thus far..
 We've been using these technologies for a couple weeks now.  Scala has proven to be an extraodinary language with a bit of a painful learning curve.  But, so far, no complaints.  We're excited to be learning these technologies and having fun while doing it!
