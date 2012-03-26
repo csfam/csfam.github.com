@@ -4,7 +4,7 @@
   <title><![CDATA[csfam]]></title>
   <link href="http://csfam.github.com/atom.xml" rel="self"/>
   <link href="http://csfam.github.com/"/>
-  <updated>2012-03-25T19:20:46-04:00</updated>
+  <updated>2012-03-25T20:01:37-04:00</updated>
   <id>http://csfam.github.com/</id>
   <author>
     <name><![CDATA[csfam]]></name>
@@ -26,15 +26,15 @@
 
 <h3>Database</h3>
 
-<p>After watching one of <a href="http://www.10gen.com/presentations/mongonyc-2011/foursquare">Foursquare&#8217;s tech talks</a>, Ray became enamored with <a href="http://www.mongodb.org">Mongodb</a> and was a big proponent for using it in Udunit.  The parts that particularly appealed to us were the JSON style storage, auto-scaling/sharding and full index support.  We were a little wary about using NoSQL, considering all of us were more used to relational databases like MySQL, but we were excited about the possibilities.  Plus, despite our familiarity with MySQL, we were also frustrated with the hassle in scaling, the restriction in schema design and the performance.</p>
+<p>After watching one of <a href="http://www.10gen.com/presentations/mongonyc-2011/foursquare">Foursquare&#8217;s tech talks</a>, we became enamored with <a href="http://www.mongodb.org">Mongodb</a> and wanted to use it in Udunit.  The parts that particularly appealed to us were the JSON style storage, auto-scaling/sharding and full index support.  We were a little wary about using NoSQL, considering all of us were more used to relational databases like MySQL, but we were excited about the possibilities.  Plus, despite our familiarity with MySQL, we were also frustrated with the hassle in scaling, the restriction in schema design and the performance.</p>
 
 <h3>API Framework</h3>
 
-<p>Ray also pushed for using <a href="http://liftweb.net/">Lift/Scala</a> for our API framework (hint: Foursquare <a href="https://docs.google.com/present/view?id=dcbpz3ck_25czcns2c2&amp;revision=_latest&amp;start=0&amp;theme=blank&amp;cwj=true">uses</a> it).  Honestly, the biggest selling point here for us was the novelty of using a new language that reduces the verbosity of Java and encourages functional programming.</p>
+<p>A few of us also pushed for using <a href="http://liftweb.net/">Lift/Scala</a> for our API framework (hint: Foursquare <a href="https://docs.google.com/present/view?id=dcbpz3ck_25czcns2c2&amp;revision=_latest&amp;start=0&amp;theme=blank&amp;cwj=true">uses</a> it).  Honestly, the biggest selling point here for us was the novelty of using a new language that reduces the verbosity of Java and encourages functional programming.</p>
 
 <h3>Web Framework</h3>
 
-<p>We had a variety of options here.  A couple of us have used Django, GWT and Struts before so we had some stronger opinions.  However, considering we were using Lift for our API framework, we ultimately decided that Lift on the frontend would accelerate our learning curve and also simplify the number of technologies we had to learn.  We were also intrigued by the idea behind Snippets which seemed like a completely new way of thinking about frontend design.</p>
+<p>We had a variety of options here.  A couple of us have used Django, GWT and Struts before so we had some stronger opinions (one of which was absolutely no GWT).  However, considering we were using Lift for our API framework, we ultimately decided that Lift on the frontend would accelerate our learning curve and also simplify the number of technologies we had to learn.  We were also intrigued by the idea behind Snippets which seemed like a completely new way of thinking about frontend design.</p>
 
 <h3>Conclusions thus far..</h3>
 
