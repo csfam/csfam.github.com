@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>in the beginning - csfam</title>
+  <title>Cross-document messaging saves the day - csfam</title>
   <meta name="author" content="csfam">
 
   
-  <meta name="description" content="There was this group of people, who got to know each other in the basement of a computer lab. They were a talented bunch, during their time in the &hellip;">
+  <meta name="description" content="We&#8217;ve been distracted and haven&#8217;t posted here in a while, but I wanted to share something I had to wrestle with: cross-domain ajax &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://csfam.github.com/blog/2012/01/05/in-the-beginning">
+  <link rel="canonical" href="http://csfam.github.com/blog/2012/04/08/cross-document-messaging-saves-the-day">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -100,7 +100,7 @@
   
   <header>
     
-      <h1 class="entry-title">In the Beginning</h1>
+      <h1 class="entry-title">Cross-document Messaging Saves the Day</h1>
     
     
       <p class="meta">
@@ -116,22 +116,37 @@
   
 
 
-<time datetime="2012-01-05T23:53:00-05:00" pubdate data-updated="true">Jan 5<span>th</span>, 2012</time>
+<time datetime="2012-04-08T07:51:00-04:00" pubdate data-updated="true">Apr 8<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>There was this group of people, who got to know each other in the basement of a computer lab.  They were a talented bunch, during their time in the lab they built interesting projects and had fun working with each other.  They made a good team.  Then the good times were over and they had to graduate.  They all went their separate ways, but many of them later, during cold rainy nights sitting in front of computers in cubicles working on other people&#8217;s work, would remember those good times and wish they could be part of something like that sometime again.</p>
+<div class="entry-content"><p>We&#8217;ve been distracted and haven&#8217;t posted here in a while, but I wanted to share something I had to wrestle with: cross-domain ajax uploads. So what&#8217;s the problem?</p>
 
-<p>Many years later, they get laid-off from their jobs at the big corporations to be replaced by new dream-filled youth &#8211; youth just as ready to give up their dreams, creativity and energy in exchange for job security.   As they leave the building and watch the new hires take their places they wonder if it could have been different.</p>
+<p>Well, we&#8217;ve divided the system into two separate parts: a frontend and a RESTful API (maybe a subject for a future post but in the meantime <a href="https://plus.google.com/112678702228711889851/posts/eVeouesvaVX">check this out</a>). These two parts sit on different domains. This caused me endless headaches when trying to get an image upload mechanism working.</p>
 
-<p>…</p>
+<p><img class="center" src="/images/posts/arch.png" title="udunit general architecture" ></p>
 
-<p>Wait a sec!  It can be different!  We are all talented, energetic, and good at what we do!  We are creative.  We love applying ourselves to new projects.  There is no reason not to harness this power!  We are powerful!  We love cs and graphics and making things.  We are scientists and inventors, artists and artisans, and we are funny and fun.  We play flash games and we waste time on tv shows, and we create and deliver.</p>
+<p>The first problem I had was getting an ajax file upload to work. The gist is that file uploads via XMLHttpRequests aren&#8217;t allowed (for security reasons). One workaround involves using an iframe as the upload target, so the response from the POST request is loaded asynchronously into the iframe, giving the impression of an ajax-y upload. (See <a href="http://www.alfajango.com/blog/ajax-file-uploads-with-the-iframe-method/">this post</a> for a much more in-depth discussion of this method.) That wasn&#8217;t terribly painful actually.</p>
 
-<p>CSFAM &#8211; is the chance for all of us to do what we want, what we&#8217;re interested in, to create the work that we love with the people we love working with.</p>
+<p>But at this point there are two domains involved: the frontend domain of the main page where we uploaded from and the API domain of the iframe that we uploaded to. I needed to access the response data within the iframe in order to determine whether the upload was successful and to obtain the uploaded image&#8217;s URL. However trying to access the data within the iframe resulted in a browser security exception (cross-domain). The problem is that browsers will not trust XMLHttpRequests&#8217; response data coming from a domain different than the page from which the request is made (hence cross-domain). Trying to access the data throws an error and returns no data.</p>
+
+<p>How do we fix this? It took several days of banging my head against the wall and a great little website called <a href="http://caniuse.com">caniuse.com</a>, where you can discover all the cool features that web browsers implement, are implementing and should be implementing. Enter cross-document messaging.</p>
+
+<p>Cross-document messaging (documented quite well on the <a href="https://developer.mozilla.org/en/DOM/window.postMessage">Mozilla Developer Network</a>) allows you to post a message from one DOM window to another DOM window. The message that is sent can be any arbitrary data. Thus we can send the response data from the iframe (which has its own DOM window) to the parent or container window. The only question I ran into was how to trigger the iframe to fire off the <code>window.postMessage</code> function after the response from the upload was returned. The solution I came up with was to actually return an HTML page as the upload response; the page contains a section of javascript that executes as soon as the page is loaded (in the invisible iframe). The javascript calls the <code>window.postMessage</code> function with the target window being the parent window and the data being the metadata from the upload response. Definitely a hack but it gets the job done &#8211; the returned HTML looks something like this:</p>
+
+<pre><code>&lt;html&gt;
+  &lt;body&gt;
+    &lt;script type='text/javascript'&gt;
+      window.parent.postMessage({ 'data': 'response data' },'targetWindow');
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>where the <code>{ 'data': 'response data' }</code> represents the actual data we wanted to return in the response and <code>targetWindow</code> is the parent window. Then you just need to register an event listener for the &#8220;message&#8221; event on the parent window (since <code>window.postMessage</code> triggers this event), and the data will be passed to the event handler, therefore allowing you to pass the upload response data from the iframe to the parent window. This allows the upload to be performed asynchronously (ajax-y) and to the upload service sitting on another domain. And ta-da, thanks to cross-document messaging we have image upload working just as we wanted it.</p>
 </div>
 
 
@@ -140,7 +155,7 @@
       
   
 
-<span class="byline author vcard">Posted by <span class="fn">timofei7</span></span>
+<span class="byline author vcard">Posted by <span class="fn">csfam</span></span>
 
       
 
@@ -154,7 +169,7 @@
   
 
 
-<time datetime="2012-01-05T23:53:00-05:00" pubdate data-updated="true">Jan 5<span>th</span>, 2012</time>
+<time datetime="2012-04-08T07:51:00-04:00" pubdate data-updated="true">Apr 8<span>th</span>, 2012</time>
       
 
 
@@ -169,8 +184,8 @@
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2012/01/25/the-tech-behind-udunit/" title="Previous Post: The Tech Behind Udunit">&laquo; The Tech Behind Udunit</a>
       
-        <a class="basic-alignment right" href="/blog/2012/01/17/measuring-herokus-concurrent-request-performance/" title="next Post: Measuring Heroku's concurrent request performance for long-running requests">Measuring Heroku's concurrent request performance for long-running requests &raquo;</a>
       
     </p>
   </footer>
@@ -243,25 +258,25 @@
 
 <section class="tag-cloud">
     <h1>Tags</h1>
-    <a style='font-size: 0.80em' href='/blog/tags/ajax'>ajax</a>
-<a style='font-size: 0.80em' href='/blog/tags/cross-document'>cross-document</a>
-<a style='font-size: 1.80em' href='/blog/tags/heroku'>heroku</a>
-<a style='font-size: 0.80em' href='/blog/tags/nodejs'>nodejs</a>
-<a style='font-size: 0.80em' href='/blog/tags/ramblings'>ramblings</a>
-<a style='font-size: 0.80em' href='/blog/tags/cross-domain'>cross-domain</a>
-<a style='font-size: 1.80em' href='/blog/tags/scala'>scala</a>
+    <a style='font-size: 0.80em' href='/blog/tags/python'>python</a>
 <a style='font-size: 0.80em' href='/blog/tags/xdr'>xdr</a>
-<a style='font-size: 0.80em' href='/blog/tags/python'>python</a>
-<a style='font-size: 0.80em' href='/blog/tags/technology'>technology</a>
-<a style='font-size: 0.80em' href='/blog/tags/hosting'>hosting</a>
-<a style='font-size: 0.80em' href='/blog/tags/fileupload'>fileupload</a>
-<a style='font-size: 0.80em' href='/blog/tags/django'>django</a>
-<a style='font-size: 0.80em' href='/blog/tags/api'>api</a>
+<a style='font-size: 0.80em' href='/blog/tags/cross-domain'>cross-domain</a>
 <a style='font-size: 1.80em' href='/blog/tags/lift'>lift</a>
+<a style='font-size: 0.80em' href='/blog/tags/fileupload'>fileupload</a>
+<a style='font-size: 0.80em' href='/blog/tags/api'>api</a>
 <a style='font-size: 0.80em' href='/blog/tags/database'>database</a>
+<a style='font-size: 0.80em' href='/blog/tags/ramblings'>ramblings</a>
+<a style='font-size: 1.80em' href='/blog/tags/heroku'>heroku</a>
+<a style='font-size: 0.80em' href='/blog/tags/technology'>technology</a>
+<a style='font-size: 0.80em' href='/blog/tags/django'>django</a>
+<a style='font-size: 0.80em' href='/blog/tags/mongodb'>mongodb</a>
+<a style='font-size: 0.80em' href='/blog/tags/hosting'>hosting</a>
+<a style='font-size: 1.80em' href='/blog/tags/scala'>scala</a>
+<a style='font-size: 0.80em' href='/blog/tags/cross-document'>cross-document</a>
+<a style='font-size: 0.80em' href='/blog/tags/ajax'>ajax</a>
+<a style='font-size: 0.80em' href='/blog/tags/nodejs'>nodejs</a>
 <a style='font-size: 0.80em' href='/blog/tags/framework'>framework</a>
 <a style='font-size: 0.80em' href='/blog/tags/performance'>performance</a>
-<a style='font-size: 0.80em' href='/blog/tags/mongodb'>mongodb</a>
  
 </section>
 
@@ -284,8 +299,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://csfam.github.com/blog/2012/01/05/in-the-beginning/';
-        var disqus_url = 'http://csfam.github.com/blog/2012/01/05/in-the-beginning/';
+        var disqus_identifier = 'http://csfam.github.com/blog/2012/04/08/cross-document-messaging-saves-the-day/';
+        var disqus_url = 'http://csfam.github.com/blog/2012/04/08/cross-document-messaging-saves-the-day/';
         var disqus_script = 'embed.js';
       
     (function () {
